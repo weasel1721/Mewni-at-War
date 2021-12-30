@@ -1,0 +1,14 @@
+state={
+	id=144
+	name="Snowtown"
+	provinces={
+		9 16 304 346 421 632 776 958 1169 1172 1174 1183 
+	}
+	manpower=1357040
+	state_category=large_town
+	buildings_max_level_factor=2.000
+	history = {
+		owner = FRO
+		add_core_of = FRO
+	}
+}

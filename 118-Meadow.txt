@@ -1,0 +1,14 @@
+state={
+	id=118
+	name="Meadow"
+	provinces={
+		26 58 117 151 197 238 398 506 549 1324 1331 1332 1334 1336 1338 1344 1346 1348 1352
+	}
+	manpower=1978000
+	state_category=city
+	buildings_max_level_factor=1.500
+	history = {
+		owner = MEA
+		add_core_of = MEA
+	}
+}

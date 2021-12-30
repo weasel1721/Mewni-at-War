@@ -1,0 +1,14 @@
+state={
+	id=143
+	name="Blizzard"
+	provinces={
+		72 195 701 730 752 1184 1186 1187 1188 1192 1197 
+	}
+	manpower=107000
+	state_category=rural
+	buildings_max_level_factor=1.500
+	history = {
+		owner = FRO
+		add_core_of = FRO
+	}
+}

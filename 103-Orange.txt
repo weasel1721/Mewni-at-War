@@ -1,0 +1,14 @@
+state={
+	id=103
+	name="Orange"
+	provinces={
+		181 408 626 981 1076 1083 1399 1401 
+	}
+	manpower=1567000
+	state_category=large_town
+	buildings_max_level_factor=2.000
+	history = {
+		owner = ORA
+		add_core_of = ORA
+	}
+}

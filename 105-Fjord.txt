@@ -1,0 +1,14 @@
+state={
+	id=105
+	name="Fjord"
+	provinces={
+		268 278 514 525 694 827 1050 1411 1412 1419 1421 1426 1438 
+	}
+	manpower=3427100
+	state_category=city
+	buildings_max_level_factor=1.500
+	history = {
+		owner = FJR
+		add_core_of = FJR
+	}
+}

@@ -1,0 +1,14 @@
+state={
+	id=122
+	name="Tigres"
+	provinces={
+		656 857 1115 1297
+	}
+	manpower=2450985
+	state_category=city
+	buildings_max_level_factor=1.000
+	history = {
+		owner = FEL
+		add_core_of = FEL
+	}
+}

@@ -1,0 +1,14 @@
+state={
+	id=123
+	name="Fleecefield"
+	provinces={
+		71 362 450 565 900 1039 
+	}
+	manpower=578000
+	state_category=pastoral
+	buildings_max_level_factor=2.000
+	history = {
+		owner = RAM
+		add_core_of = RAM
+	}
+}

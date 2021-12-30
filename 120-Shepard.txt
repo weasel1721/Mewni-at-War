@@ -1,0 +1,14 @@
+state={
+	id=120
+	name="Shepard"
+	provinces={
+		245 492 577 583 586 669 982 989 1058 1339 1341 1360 
+	}
+	manpower=1452070
+	state_category=town
+	buildings_max_level_factor=1.500
+	history = {
+		owner = RAM
+		add_core_of = RAM
+	}
+}

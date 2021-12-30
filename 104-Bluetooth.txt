@@ -1,0 +1,14 @@
+state={
+	id=104
+	name="Bluetooth"
+	provinces={
+		155 214 319 376 494 573 839 1380 1383 1390 1391 1397 1398 1403 1407 
+	}
+	manpower=1346500
+	state_category=pastoral
+	buildings_max_level_factor=2.000
+	history = {
+		owner = FJR
+		add_core_of = FJR
+	}
+}

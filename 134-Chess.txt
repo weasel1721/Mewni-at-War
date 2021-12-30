@@ -1,0 +1,14 @@
+state={
+	id=134
+	name="Chess"
+	provinces={
+		100 194 266 331 534 699 728 898 913 935 1025 1262 1265 1266 1275 1276 1284 
+	}
+	manpower=2137500
+	state_category=large_town
+	buildings_max_level_factor=2.000
+	history = {
+		owner = CSS
+		add_core_of = CSS
+	}
+}

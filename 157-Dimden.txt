@@ -1,0 +1,14 @@
+state={
+	id=157
+	name="Dimden"
+	provinces={
+		103 295 1321  
+	}
+	manpower=2145800
+	state_category=city
+	buildings_max_level_factor=1.500
+	history = {
+		owner = SIL
+		add_core_of = SIL
+	}
+}

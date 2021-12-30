@@ -1,0 +1,34 @@
+spriteTypes = {
+	SpriteType = {
+	name = "GFX_UKM_welcoming_the_new_year"
+	texturefile = "gfx/interface/goals/GFX_UKM_welcoming_the_new_year.dds"
+	}
+	SpriteType = {
+	name = "GFX_UKM_rebuilding_public_trust"
+	texturefile = "gfx/interface/goals/GFX_UKM_rebuilding_public_trust.dds"
+	}
+	SpriteType = {
+	name = "GFX_UKM_continuing_reconstruction"
+	texturefile = "gfx/interface/goals/GFX_UKM_continuing_reconstruction.dds"
+	}
+	SpriteType = {
+	name = "GFX_a_media_blitz"
+	texturefile = "gfx/interface/goals/GFX_a_media_blitz.dds"
+	}
+	SpriteType = {
+	name = "GFX_UKM_affairs_of_the_reconciliation_committee"
+	texturefile = "gfx/interface/goals/GFX_UKM_affairs_of_the_reconciliation_committee.dds"
+	}
+	SpriteType = {
+	name = "GFX_UKM_inviting_the_tribes"
+	texturefile = "gfx/interface/goals/GFX_UKM_inviting_the_tribes.dds"
+	}
+	SpriteType = {
+	name = "GFX_UKM_monstercon_45"
+	texturefile = "gfx/interface/goals/GFX_UKM_monstercon_45.dds"
+	}
+	SpriteType = {
+	name = "GFX_UKM_a_look_at_the_accounting_books"
+	texturefile = "gfx/interface/goals/GFX_UKM_a_look_at_the_accounting_books.dds"
+	}
+}

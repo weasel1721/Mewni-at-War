@@ -1,0 +1,46 @@
+﻿l_english:
+democratic:0 "Republicanism"
+democratic_noun:0 "Republicanism"
+democratic_desc:0 "Republicanism"
+
+communism:0 "Progressivism"
+communism_noun:0 "Progressivism"
+communism_desc:0 "Revolutionary Regime"
+
+fascism:0 "Despotism"
+fascism_noun:0 "Despotism"
+fascism_desc:0 "Autocracy"
+
+neutrality:0 "Monarchism"
+neutrality_noun:0 "Monarchism"
+neutrality_desc:0 "Monarchy"
+
+constitutional_monarchism:0 "Constitutional Monarchism"
+constitutional_monarchism_desc:0 "§YConstitutional Monarchism§! is a somewhat reformist view of monarchism that seeks to limit the monarch's power through checks and balances placed upon them to prevent an abuse of power. As such, constitutional monarchies tend to have more robust and developed institutions and legal frameworks to support such a system and ensure accountability from all aspects of the government. Many kingdoms have adopted the ideology, but absolutism still retains its role as the dominant strain of monarchism within most nations."
+
+absolutism:0 "Absolutism"
+absolutism_desc:0 "§YAbsolutism§! is an ideaology that espouses the monarch as the supreme authority within a nation, with the two being seen as inseperable from one another. Absolutist nations derive their power through oral and cultural traditions in a unitary state, with monarchs being able to act with virtually unchecked power, for better, or for worse. Furthermore, the doctrine expresses that the state would not exist if it were not for the monarch, and that life outside of such a system would be primitive, savage, brutal, and ignorant. As such it is the true and ultimate form of governance."
+
+authoritarian_democracy:0 "Authoritarian Democracy"
+authoritarian_democracy_desc:0 "§YAuthoritarian Democracy§! referes to a style of governance that exists within a nominally democratic system of government, that exercises heavy-handed measures such as constitutional hardballs, intimidation, and strongman tactics to see their goals be implemented. Although authoritarian democracy is often a symptom of democratic backsliding, it in of itself does not indicate such, and may just simply reflect a leaders strong desire to see their agenda be placed into action, regardless of the long-term consequences these actions might bring."
+
+progressive_dictatorship:0 "Progressive Dictatorship"
+progressive_dictatorship_desc:0 "§YProgressive Dictatorship§! refers to a form of dictatorial rule in which the head of government uses their power to begin a transition to a more fair and egalitarian system of government. Unlike normal despotic regimes, progressive dictatorships see themseleves as being a temporary measure to oversee the building of egalitarian institutions, before giving up their powers to either retire from the political sphere, or to assume the role of the next head of government within their new system. Although the intentions of those who lead progressive dictatorships are often seen as virtuous and noble, it is not unheard of to see these regimes faulter in their implementation of egalitarian institutions, often backsliding into a perpetual period of reform, or a standard autocracy."
+
+paternal_autocracy:0 "Authoritarianism"
+paternal_autocracy_desc:0 "§YAuthoritarianism§! is often seen as the "standard" for despotism, with leaders who are associated with the ideology being referred to across Mewni as "monarchs without a crown." More specifically, authoritarianism refers to an autocratic regime that sees an extreme centralization of power, and vague limits on executive authority, with its leaders often appealing to a sense of nationalism and tradition to build their legitimacy. Furthermore, authoritarian leaders often masquerade behind sham democracies to build the illusion of the consent of the governed, and argue that their existence helps to stabilize the nation they rule from internal, and external threats."
+
+totalitarianism:0 "Totalitarianism"
+totalitarianism_desc:0 "§YTotalitarianism§! is an ideology that takes the very concept of governance and rulership to its absolute limit. Totalitarianism seeks to exercise nigh total control over every aspect of their citizens' lives, with their political opinions, livelihoods, households, and sometimes even languages being tightly controlled by the state to ensure absolute obedience. Totalitarian governments contain virtually no limits on executive power or the separation of powers and operate on the sole desire of their leader to see their agenda for the nation fulfilled. These leaders, in turn, prop up their legitimacy through intense propaganda campaigns to build a cult of personality to portray themselves as being benevolent overlords who protect the will of the people and work to preserve their and their nation's best interests."
+
+reactionary:0 "Reactionary"
+reactionary_desc:0 "§YReactionary§! describes an ideology that seeks a return to a status quo following a considerable upheavel within the political, social, or cultural sphere, which ideologues view as harmful to the country or soceity at large, therefor seeking to revert to the previous status quo to undo the damages caused by the changes. Often conflated with conservativism among the general public, the primary difference comes in the timing and context of the two ideologies, with conservatives being seen as trying to stop a change as it is being made, while reactionaries seek to undo the changes made after the fact. Reactionaries govern through autocratic regimes to exert more direct control in their rollback of change, and to quash any attempts at resistence within government institutions and the public, something which in of itself is characteristic of these regimes given that those who fought for the change in question will often not be so willing to give it up so easily."
+
+corporatism:0 "Corporatism"
+corporatism_desc:0 "§YCorporatism§! is an ideology which seeks to restrucutre society and government around corporate groups specializing within a given industry or trade. Corporatists argue that this restructuring helps to improve the effiency and production of a nation, as it gives the corporate groups the focus needed to excel within a given trade, rather then handicapping themselves by attempting to excel in multiple fields with limited results. To coporatists, these corporate groups are seen as integral state institutions, although the methods used to implement them will vary from government to government, with some utilizing pre-exisiting companies to oversee the transition, while others attempt to build the system from scratch and abolish private enterprise enteriely."
+
+social_liberalism:0 "Social Liberalism"
+social_liberalism_desc:0 "§YSocial Liberalism§! is one of the two sects of liberalism, a broader ideology that espouses political, personal, and economic freedoms from the central government. Social liberalism in particular is more focused on the former two tenets, and seeks to govern by promoting the induvidual rights of people within a society. In practice, social liberalism does face some shortcomings in regards to compromises that must be made in regards to the applications of these rights, specifically in whether the prevention of behavior that restricts freedom among its citizens constitutes a violation of the freedom of those who practice said behavior, with the most common examples being corporations and extremists ideologies. How these problems are reconcilled depends on the leaders excercising their authority, with each solution having upsides and downsides to each party."
+
+market_liberalism:0 "Market Liberalism"
+market_liberalism_desc:0 "§YMarket Liberalism§! is one of the two sects of liberalism, a broader ideology that espouses political, personal, and economic freedoms from the central government. Market liberalism in particular is more focused on the latter tenet, and seeks to loosen government control over the economy to increase economic prosperity. It is important to not misconstrue market liberals predication of the economy over induvidual and political freedoms as a neglect however, as they believe that the welfare of the economy is directly tied to both, and that it's prosperity will naturally result in their promotion and use. The most that the government has to do in their eyes is outline the basic institutions necessary for the excercise of those freedoms, with the rest coming naturally as the result."

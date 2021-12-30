@@ -1,0 +1,14 @@
+state={
+	id=135
+	name="Carvel"
+	provinces={
+		34 39 230 634 740 759 876 1286 1292 1304 1307 1318 
+	}
+	manpower=4789200
+	state_category=large_city
+	buildings_max_level_factor=1.000
+	history = {
+		owner = CAR
+		add_core_of = CAR
+	}
+}

@@ -1,0 +1,14 @@
+state={
+	id=131
+	name="Leechstone"
+	provinces={
+		373 560 581 614 724 743 757 904 1003 1080 1190 1195 1201 1203 1207 1213 1215 1217 1223 1226 
+	}
+	manpower=1982500
+	state_category=city
+	buildings_max_level_factor=1.500
+	history = {
+		owner = LEE
+		add_core_of = LEE
+	}
+}
