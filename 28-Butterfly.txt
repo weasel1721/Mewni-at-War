@@ -1,0 +1,23 @@
+state={
+	id=28
+	name="Butterfly"
+	provinces={
+		229 235 872 895 993 
+	}
+	manpower=2340000
+	state_category=metropolis
+	buildings_max_level_factor=1.200
+	history = {
+		owner = UKM
+		add_core_of = UKM
+		victory_points = {
+			235 20
+		}
+		victory_points = {
+			895 15
+		}
+		victory_points = {
+			229 10
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state={
+	id=89
+	name="Teos"
+	provinces={
+		101 272 284 988 1023 1351 1357 1363 1385 
+	}
+	manpower=2376800
+	state_category=large_city
+	buildings_max_level_factor=1.000
+	history = {
+		owner = SIL
+		add_core_of = SIL
+	}
+}

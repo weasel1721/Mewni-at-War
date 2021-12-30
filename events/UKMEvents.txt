@@ -1,0 +1,268 @@
+add_namespace = butterfly
+country_event = {
+	id = butterfly.1
+	title = butterfly.1.t
+	desc = butterfly.1.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = UKM
+		date > 845.1.5
+	}
+
+	mean_time_to_happen = { days = 0 }
+
+	option = {
+		name = butterfly.1.a
+	}
+}
+country_event = {
+	id = butterfly.2
+	title = butterfly.2.t
+	desc = butterfly.2.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = UKM
+		date > 845.1.20
+	}
+
+	mean_time_to_happen = { days = 0 }
+
+	option = {
+		name = butterfly.2.a
+	}
+}
+country_event = {
+	id = butterfly.3
+	title = butterfly.3.t
+	desc = butterfly.3.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = UKM
+		date > 845.2.9
+	}
+
+	mean_time_to_happen = { days = 0 }
+
+	option = {
+		name = butterfly.3.a
+	}
+}
+country_event = {
+	id = butterfly.4
+	title = butterfly.4.t
+	desc = butterfly.4.d
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UKM
+	}
+
+	mean_time_to_happen = { days = 0 }
+
+	option = {
+		name = butterfly.4.a
+	}
+}
+country_event = {
+	id = butterfly.5
+	title = butterfly.5.t
+	desc = butterfly.5.d
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = UKM
+		date > 845.3.9
+	}
+
+	mean_time_to_happen = { days = 0 }
+
+	option = {
+		name = butterfly.5.a
+	}
+}
+country_event = {
+	id = butterfly.6
+	title = butterfly.6.t
+	desc = butterfly.6.d
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UKM
+	}
+
+	mean_time_to_happen = { days = 0 }
+
+	option = {
+		name = butterfly.6.a
+	}
+}
+country_event = {
+	id = butterfly.8
+	title = butterfly.8.t
+	desc = butterfly.8.d
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UKM
+	}
+
+	mean_time_to_happen = { days = 0 }
+
+	option = {
+		name = butterfly.8.a
+	}
+}
+country_event = {
+	id = butterfly.9
+	title = butterfly.9.t
+	desc = butterfly.9.d
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UKM
+	}
+
+	mean_time_to_happen = { days = 0 }
+
+	option = {
+		name = butterfly.9.a
+	}
+}
+country_event = {
+	id = butterfly.10
+	title = butterfly.10.t
+	desc = butterfly.10.d
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UKM
+	}
+
+	mean_time_to_happen = { days = 0 }
+
+	option = {
+		name = butterfly.10.a
+		country_event = {
+			id = butterfly.11
+			days = 5
+		}
+	}
+}
+country_event = {
+	id = butterfly.11
+	title = butterfly.11.t
+	desc = butterfly.11.d
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UKM
+	}
+
+	mean_time_to_happen = { days = 0 }
+
+	option = {
+		name = butterfly.11.a
+		hidden_effect = {
+			random_list = {
+				25 = {
+					country_event = {
+						id = butterfly.12
+						days = 3
+					}
+				}
+				75 = {
+					country_event = {
+						id = butterfly.13
+						days = 2
+					}
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = butterfly.12
+	title = butterfly.12.t
+	desc = butterfly.12.d
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UKM
+	}
+
+	mean_time_to_happen = { days = 2 }
+
+	option = {
+		name = butterfly.12.a
+		add_political_power = 15
+		add_stability = 0.05
+	}
+}
+country_event = {
+	id = butterfly.13
+	title = butterfly.13.t
+	desc = butterfly.13.d
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UKM
+	}
+
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = butterfly.13.a
+		add_political_power = -25
+		add_stability = -0.05
+	}
+}
+country_event = {
+	id = butterfly.14
+	title = butterfly.14.t
+	desc = butterfly.14.d
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UKM
+	}
+
+	mean_time_to_happen = { days = 0 }
+
+	option = {
+		name = butterfly.14.a
+	}
+}

@@ -1,0 +1,14 @@
+state={
+	id=13
+	name="Purple Island"
+	provinces={
+		371 
+	}
+	manpower=40530
+	state_category=tiny_island
+	buildings_max_level_factor=2.000
+	history = {
+		owner = RAI
+		add_core_of = RAI
+	}
+}

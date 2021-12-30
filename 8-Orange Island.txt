@@ -1,0 +1,14 @@
+state={
+	id=8
+	name="Orange Island"
+	provinces={
+		925 1063 
+	}
+	manpower=35000
+	state_category=small_island
+	buildings_max_level_factor=3.000
+	history = {
+		owner = RAI
+		add_core_of = RAI
+	}
+}

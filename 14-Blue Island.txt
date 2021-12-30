@@ -1,0 +1,14 @@
+state={
+	id=14
+	name="Blue Island"
+	provinces={
+		92 684 1026 
+	}
+	manpower=74000
+	state_category=small_island
+	buildings_max_level_factor=3.000
+	history = {
+		owner = RAI
+		add_core_of = RAI
+	}
+}
