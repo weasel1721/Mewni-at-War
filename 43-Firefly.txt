@@ -1,0 +1,26 @@
+state={
+	id=43
+	name="Firefly"
+	provinces={
+		138 179 386 855 1571 1578 1579 1580 1584 1585 
+	}
+	manpower=367000
+	state_category=large_town
+	buildings_max_level_factor=1.500
+	history = {
+		owner = UKM
+		add_core_of = UKM
+		victory_points = {
+			138 25
+		}
+		victory_points = {
+			179 15
+		}
+		victory_points = {
+			1580 10
+		}
+		victory_points = {
+			386 5
+		}
+	}
+}

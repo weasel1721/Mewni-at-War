@@ -1,0 +1,14 @@
+state={
+	id=94
+	name="Smith"
+	provinces={
+		310 781 943 1065 1362 1367 1375 
+	}
+	manpower=256730
+	state_category=metropolis
+	buildings_max_level_factor=1.000
+	history = {
+		owner = SMI
+		add_core_of = SMI
+	}
+}

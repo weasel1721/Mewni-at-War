@@ -1,0 +1,14 @@
+state={
+	id=60
+	name="Heaven"
+	provinces={
+		15 159 225 313 320 404 695 706 883 948 959 997 1056 1137 1586 1591 1594 1595 1605 1607 1612 
+	}
+	manpower=140200
+	state_category=rural
+	buildings_max_level_factor=1.000
+	history = {
+		owner = MVL
+		add_core_of = MVL
+	}
+}

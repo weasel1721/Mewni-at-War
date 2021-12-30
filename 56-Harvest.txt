@@ -1,0 +1,14 @@
+state={
+	id=56
+	name="Harvast"
+	provinces={
+		208 250 448 483 608 939 980 1105 1533 1539 1543 1547 1551 
+	}
+	manpower=234500
+	state_category=rural
+	buildings_max_level_factor=2.500
+	history = {
+		owner = SEP
+		add_core_of = SEP
+	}
+}

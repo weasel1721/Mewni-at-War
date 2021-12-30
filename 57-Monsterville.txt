@@ -1,0 +1,14 @@
+state={
+	id=57
+	name="Monsterville"
+	provinces={
+		22 30 48 50 708 824 909 938 1090 1106 1555 1560 1564 
+	}
+	manpower=1190000
+	state_category=town
+	buildings_max_level_factor=2.000
+	history = {
+		owner = MVL
+		add_core_of = MVL
+	}
+}

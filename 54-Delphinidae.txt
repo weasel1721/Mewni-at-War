@@ -1,0 +1,14 @@
+state={
+	id=54
+	name="Delphinidae"
+	provinces={
+		529 564 566 612 986 1146 1495 1499 1503 1510 
+	}
+	manpower=657000
+	state_category=pastoral
+	buildings_max_level_factor=3.000
+	history = {
+		owner = SEP
+		add_core_of = SEP
+	}
+}

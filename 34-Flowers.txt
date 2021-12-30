@@ -1,0 +1,26 @@
+state={
+	id=34
+	name="Flowers"
+	provinces={
+		170 312 342 475 1148 1534 1537 1540 
+	}
+	manpower=765400
+	state_category=city
+	buildings_max_level_factor=1.500
+	history = {
+		owner = UKM
+		add_core_of = UKM
+		victory_points = {
+			1148 35
+		}
+		victory_points = {
+			475 20
+		}
+		victory_points = {
+			342 20
+		}
+		victory_points = {
+			1537 1
+		}
+	}
+}

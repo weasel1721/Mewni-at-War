@@ -1,0 +1,14 @@
+state={
+	id=47
+	name="Western Desert Mountains"
+	provinces={
+		32 166 167 205 224 307 471 532 1497
+	}
+	manpower=2390
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+	history = {
+		owner = GOR
+		add_core_of = GOR
+	}
+}

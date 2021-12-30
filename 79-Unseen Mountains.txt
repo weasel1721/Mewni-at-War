@@ -1,0 +1,14 @@
+state={
+	id=79
+	name="Unseen Mountains"
+	provinces={
+		47 84 102 178 180 227 285 474 543 693 713 722 858 886 902 914 924 1006 1092 1131 1745 1751 1766 1768 1771 1774 1777 1779 1781 
+	}
+	manpower=924
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+	history = {
+		owner = UNC
+		add_core_of = UNC
+	}
+}

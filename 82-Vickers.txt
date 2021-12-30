@@ -1,0 +1,14 @@
+state={
+	id=82
+	name="Vickers"
+	provinces={
+		147 413 762 1019 1122 1485 
+	}
+	manpower=326830
+	state_category=rural
+	buildings_max_level_factor=1.500
+	history = {
+		owner = GOR
+		add_core_of = GOR
+	}
+}

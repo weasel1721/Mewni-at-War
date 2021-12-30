@@ -1,0 +1,14 @@
+state={
+	id=76
+	name="Watcharbor"
+	provinces={
+		17 73 140 146 158 339 347 540 570 584 638 1739 1746 1747 1759 1761 1764 1780 
+	}
+	manpower=900200
+	state_category=city
+	buildings_max_level_factor=1.500
+	history = {
+		owner = HEL
+		add_core_of = HEL
+	}
+}

@@ -1,0 +1,14 @@
+state={
+	id=62
+	name="Wayne"
+	provinces={
+		109 637 650 662 793 1663 1664 1673 1674 1680 
+	}
+	manpower=467800
+	state_category=large_town
+	buildings_max_level_factor=2.000
+	history = {
+		owner = WAY
+		add_core_of = WAY
+	}
+}

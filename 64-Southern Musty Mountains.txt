@@ -1,0 +1,14 @@
+state={
+	id=64
+	name="Southern Musty Mountains"
+	provinces={
+		141 163 220 253 254 293 1630 1636 1642 
+	}
+	manpower=159000
+	state_category=rural
+	buildings_max_level_factor=1.000
+	history = {
+		owner = MUS
+		add_core_of = MUS
+	}
+}
