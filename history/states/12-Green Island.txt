@@ -1,0 +1,14 @@
+state={
+	id=12
+	name="Green Island"
+	provinces={
+		12 851 1725 1743 1744 
+	}
+	manpower=63030
+	state_category=small_island
+	buildings_max_level_factor=3.000
+	history = {
+		owner = RAI
+		add_core_of = RAI
+	}
+}

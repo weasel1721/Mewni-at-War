@@ -1,0 +1,14 @@
+state={
+	id=149
+	name="Ursa"
+	provinces={
+		86 247 388 415 741 821 1052 1067 1151 1152 1153 1155 1156 1160 1164 
+	}
+	manpower=458000
+	state_category=rural
+	buildings_max_level_factor=1.000
+	history = {
+		owner = CET
+		add_core_of = CET
+	}
+}

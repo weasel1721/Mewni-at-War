@@ -1,0 +1,14 @@
+state={
+	id=74
+	name="Milkport"
+	provinces={
+		164 737 996 488 1702 850 
+	}
+	manpower=346000
+	state_category=town
+	buildings_max_level_factor=1.500
+	history = {
+		owner = GOA
+		add_core_of = GOA
+	}
+}

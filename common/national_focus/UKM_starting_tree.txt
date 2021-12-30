@@ -1,0 +1,131 @@
+focus_tree = {
+	id = UKM_starting_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = UKM
+		}
+	}
+	default = no
+	reset_on_civil_war = no
+	focus = {
+		id = welcoming_the_new_year
+		icon = GFX_UKM_welcoming_the_new_year
+		cost = 2
+		x = 9
+		y = 0
+		completion_reward = {
+			country_event = {
+				id = butterfly.4
+			}
+		}
+	}
+	focus = {
+		id = rebuilding_public_trust
+		icon = GFX_UKM_rebuilding_public_trust
+		cost = 4
+		x = 8
+		y = 1
+		prerequisite = {
+			focus = welcoming_the_new_year
+		}
+		completion_reward = {
+			add_political_power = 30
+		}
+	}
+	focus = {
+		id = continuing_reconstruction
+		icon = GFX_UKM_continuing_reconstruction
+		cost = 4
+		x = 8
+		y = 2
+		prerequisite = {
+			focus = rebuilding_public_trust
+		}
+		completion_reward = {
+			add_stability = 0.02
+			country_event = {
+				id = butterfly.6
+			}
+		}
+	}
+	focus = {
+		id = a_media_blitz
+		icon = GFX_a_media_blitz
+		cost = 3
+		x = 8
+		y = 3
+		prerequisite = {
+			focus = continuing_reconstruction
+		}
+		completion_reward = {
+			country_event = {
+				id = butterfly.7
+			}
+		}
+	}
+	focus = {
+		id = affairs_of_the_reconciliation_committee
+		icon = GFX_UKM_affairs_of_the_reconciliation_committee
+		cost = 3
+		x = 10
+		y = 1
+		prerequisite = {
+			focus = welcoming_the_new_year
+		}
+		completion_reward = {
+			country_event = {
+				id = butterfly.8
+			}
+		}
+	}
+	focus = {
+		id = inviting_the_tribes
+		icon = GFX_UKM_inviting_the_tribes
+		cost = 3
+		x = 10
+		y = 2
+		prerequisite = {
+			focus = affairs_of_the_reconciliation_committee
+		}
+		completion_reward = {
+			country_event = {
+				id = butterfly.9
+			}
+		}
+	}
+	focus = {
+		id = monstercon_45
+		icon = GFX_UKM_monstercon_45
+		cost = 4
+		x = 10
+		y = 3
+		prerequisite = {
+			focus = inviting_the_tribes
+		}
+		completion_reward = {
+			country_event = {
+				id = butterfly.10
+			}
+		}
+	}
+	focus = {
+		id = a_look_at_the_accounting_books
+		icon = GFX_UKM_a_look_at_the_accounting_books
+		cost = 3
+		x = 9
+		y = 4
+		prerequisite = {
+			focus = a_media_blitz
+		}
+		prerequisite = {
+			focus = monstercon_45
+		}
+		completion_reward = {
+			country_event = {
+				id = butterfly.14
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state={
+	id=99
+	name="Marsh"
+	provinces={
+		20 683 903 1049 1370 1402 
+	}
+	manpower=849000
+	state_category=rural
+	buildings_max_level_factor=3.000
+	history = {
+		owner = MAR
+		add_core_of = MAR
+	}
+}

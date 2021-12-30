@@ -1,0 +1,9 @@
+strategic_region={
+	id=43
+	name="Clifford"
+	provinces={
+		281 469 576 641 751 885 1040 1741 1749 1752 1755 1757 
+	}
+	weather={
+	}
+}

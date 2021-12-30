@@ -1,0 +1,14 @@
+state={
+	id=155
+	name="Helios"
+	provinces={
+		276 368 509 595 645 918 1298 1314 1325 
+	}
+	manpower=2380000
+	state_category=town
+	buildings_max_level_factor=1.500
+	history = {
+		owner = SIL
+		add_core_of = SIL
+	}
+}

@@ -1,0 +1,27 @@
+bookmarks = {
+	bookmark = {
+		name = "The Age of Uncertainty"
+		desc = "Testing"
+		date = 845.1.1.1
+		picture = ""
+		default = yes
+		default_country = UKM
+		UKM = {
+			history = "UKM_AGE_OF_UNCERTAINTY_DESC"
+			ideology = monarchism
+			minor = no	
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"---" = {
+			history = "Testing"
+		}
+		effect = {
+			randomize_weather = 12345   # Required
+		}
+	}
+}

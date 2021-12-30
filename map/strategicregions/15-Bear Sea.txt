@@ -1,0 +1,9 @@
+strategic_region={
+	id=15
+	name="Bear Sea"
+	provinces={
+		1911 1917 2039 2075 2166 2188 2259 2305 2357 2358 2402 
+	}
+	weather={
+	}
+}

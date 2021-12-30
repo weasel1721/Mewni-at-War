@@ -1,0 +1,14 @@
+state={
+	id=17
+	name="Emporion"
+	provinces={
+		35 160 470 1315 1319 1327 1330 477 732 1326 1086 682 957
+	}
+	manpower=380200
+	state_category=rural
+	buildings_max_level_factor=2.000
+	history = {
+		owner = SIL
+		add_core_of = SIL
+	}
+}

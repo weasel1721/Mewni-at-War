@@ -1,0 +1,9 @@
+strategic_region={
+	id=17
+	name="Smith Sea"
+	provinces={
+		1857 1933 2072 2141 2199 2335 
+	}
+	weather={
+	}
+}

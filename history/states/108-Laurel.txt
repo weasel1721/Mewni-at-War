@@ -1,0 +1,14 @@
+state={
+	id=108
+	name="Laurel"
+	provinces={
+		1 337 383 396 442 754 1075 1123 1138 1366 1374 1381 
+	}
+	manpower=5892100
+	state_category=megalopolis
+	buildings_max_level_factor=1.000
+	history = {
+		owner = LAU
+		add_core_of = LAU
+	}
+}

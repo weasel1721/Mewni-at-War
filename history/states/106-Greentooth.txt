@@ -1,0 +1,14 @@
+state={
+	id=106
+	name="Greentooth"
+	provinces={
+		51 130 391 401 424 591 592 623 679 680 809 833 859 971 1015 1087 1143 1322 1323 1328 1333 1335 1337 1342 1347 1355 
+	}
+	manpower=2478900
+	state_category=large_town
+	buildings_max_level_factor=1.500
+	history = {
+		owner = FJR
+		add_core_of = FJR
+	}
+}

@@ -1,0 +1,14 @@
+state={
+	id=32
+	name="Spitfire"
+	provinces={
+		124 335 375 541 594 780 1005 1043 1068 1125 1448 1449 1455 1456 1467 1468 1483 
+	}
+	manpower=628000
+	state_category=large_town
+	buildings_max_level_factor=1.300
+	history = {
+		owner = SPI
+		add_core_of = SPI
+	}
+}

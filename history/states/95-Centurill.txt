@@ -1,0 +1,14 @@
+state={
+	id=95
+	name="Centurill"
+	provinces={
+		546 666 716 766 1001 1129 1404 1413 
+	}
+	manpower=1159340
+	state_category=city
+	buildings_max_level_factor=1.500
+	history = {
+		owner = LAU
+		add_core_of = LAU
+	}
+}

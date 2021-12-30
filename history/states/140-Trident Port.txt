@@ -1,0 +1,14 @@
+state={
+	id=140
+	name="Trident Port"
+	provinces={
+		133 236 461 644 878 1182 1198 
+	}
+	manpower=876500
+	state_category=large_town
+	buildings_max_level_factor=1.500
+	history = {
+		owner = TRI
+		add_core_of = TRI
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region={
+	id=3
+	name="Delphinidae Sea"
+	provinces={
+		1919 2021 2157 2279 2310 2410 
+	}
+	weather={
+	}
+}

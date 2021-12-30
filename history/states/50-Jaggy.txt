@@ -1,0 +1,14 @@
+state={
+	id=50
+	name="Jaggy"
+	provinces={
+		87 121 562 1500 1506 1508 1511 
+	}
+	manpower=63000
+	state_category=pastoral
+	buildings_max_level_factor=6.000
+	history = {
+		owner = JAG
+		add_core_of = JAG
+	}
+}

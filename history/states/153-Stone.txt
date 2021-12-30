@@ -1,0 +1,26 @@
+state={
+	id=153
+	name="Stone"
+	provinces={
+		49 56 75 90 750 1563 1570 
+	}
+	manpower=241600
+	state_category=town
+	buildings_max_level_factor=1.500
+	history = {
+		owner = UKM
+		add_core_of = UKM
+		victory_points = {
+			750 30
+		}
+		victory_points = {
+			49 10
+		}
+		victory_points = {
+			56 15
+		}
+		victory_points = {
+			1570 5
+		}
+	}
+}

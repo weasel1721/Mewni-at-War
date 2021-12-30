@@ -1,0 +1,23 @@
+state={
+	id=46
+	name="Lucitor"
+	provinces={
+		183 392 443 863 1590 1592 1597 1601 
+	}
+	manpower=572000
+	state_category=city
+	buildings_max_level_factor=1.500
+	history = {
+		owner = UKM
+		add_core_of = UKM
+		victory_points = {
+			1601 25
+		}
+		victory_points = {
+			1590 10
+		}
+		victory_points = {
+			443 1
+		}
+	}
+}

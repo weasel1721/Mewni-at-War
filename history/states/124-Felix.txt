@@ -1,0 +1,14 @@
+state={
+	id=124
+	name="Felix"
+	provinces={
+		203 575 587 1018 1089 1103 1142 
+	}
+	manpower=1356000
+	state_category=large_town
+	buildings_max_level_factor=1.500
+	history = {
+		owner = FEL
+		add_core_of = FEL
+	}
+}

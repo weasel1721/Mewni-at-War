@@ -1,0 +1,14 @@
+state={
+	id=107
+	name="Swan"
+	provinces={
+		67 330 447 1354 1358 1361 1364 1371 1376 1382 1386 
+	}
+	manpower=1376000
+	state_category=large_town
+	buildings_max_level_factor=1.000
+	history = {
+		owner = SWA
+		add_core_of = SWA
+	}
+}

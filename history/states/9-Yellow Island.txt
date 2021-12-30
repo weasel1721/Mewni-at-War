@@ -1,0 +1,14 @@
+state={
+	id=9
+	name="Yellow Island"
+	provinces={
+		822 1000 1705 1711 
+	}
+	manpower=45500
+	state_category=small_island
+	buildings_max_level_factor=3.000
+	history = {
+		owner = RAI
+		add_core_of = RAI
+	}
+}

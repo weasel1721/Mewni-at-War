@@ -1,0 +1,14 @@
+state={
+	id=6
+	name="Off Color Island"
+	provinces={
+		1798 
+	}
+	manpower=7460
+	state_category=tiny_island
+	buildings_max_level_factor=2.000
+	history = {
+		owner = RAI
+		add_core_of = RAI
+	}
+}

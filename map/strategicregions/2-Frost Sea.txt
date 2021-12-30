@@ -1,0 +1,9 @@
+strategic_region={
+	id=2
+	name="Frost Sea"
+	provinces={
+		1842 1932 2078 2131 2143 2251 2328 2345 2346 2361 
+	}
+	weather={
+	}
+}

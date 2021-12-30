@@ -1,0 +1,14 @@
+state={
+	id=22
+	name="Lost Coast"
+	provinces={
+		308 422 1697 1035 790 770 1061 1715 1717 764 1721 277 303 1008 265 1748 568 667 209 149 511 1763 1756 318 1770 1773 1121 1094 1767 498
+	}
+	manpower=5900
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+	history = {
+		owner = UNC
+		add_core_of = UNC
+	}
+}

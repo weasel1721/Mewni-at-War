@@ -1,0 +1,14 @@
+state={
+	id=18
+	name="Plague"
+	provinces={
+		753 1229 585 1240 1234 242 1225 517 1214 137 59 1139 38 1235 590 1222 279 1205 742 1204 1232 1101 221 946 975 832 841 1230
+	}
+	manpower=450000
+	state_category=large_town
+	buildings_max_level_factor=1.500
+	history = {
+		owner = PLA
+		add_core_of = PLA
+	}
+}

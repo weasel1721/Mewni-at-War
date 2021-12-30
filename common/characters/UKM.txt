@@ -1,0 +1,16 @@
+characters={
+	UKM_star_butterfly={
+		name="Star Butterfly"
+		portraits={
+			civilian={
+				large="gfx/leaders/UKM/StarButterflyHoS.dds"
+			}
+		}
+		country_leader={
+			desc="Testing"
+			ideology=constitutional_monarchism
+			expire="870.1.1.1"
+			id=-1
+		}
+	}
+}

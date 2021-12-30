@@ -1,0 +1,14 @@
+state={
+	id=97
+	name="Archon"
+	provinces={
+		113 126 551 746 761 779 794 921 1077 1388 1393 1400 1409 1410 1414
+	}
+	manpower=4213580
+	state_category=metropolis
+	buildings_max_level_factor=1.000
+	history = {
+		owner = LAU
+		add_core_of = LAU
+	}
+}

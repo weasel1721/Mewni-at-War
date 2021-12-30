@@ -1,0 +1,14 @@
+state={
+	id=142
+	name="Snowood"
+	provinces={
+		105 115 193 196 239 453 835 962 1059 1147 1175 1189 1199 1208 
+	}
+	manpower=467100
+	state_category=town
+	buildings_max_level_factor=1.750
+	history = {
+		owner = FRO
+		add_core_of = FRO
+	}
+}

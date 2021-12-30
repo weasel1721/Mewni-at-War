@@ -1,0 +1,14 @@
+state={
+	id=137
+	name="Weald"
+	provinces={
+		36 417 572 985 1249 1253 1254 1260 1263 1267 1271 
+	}
+	manpower=2504870
+	state_category=city
+	buildings_max_level_factor=1.500
+	history = {
+		owner = WEA
+		add_core_of = WEA
+	}
+}

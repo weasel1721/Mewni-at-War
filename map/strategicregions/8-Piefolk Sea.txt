@@ -1,0 +1,9 @@
+strategic_region={
+	id=8
+	name="Piefolk Sea"
+	provinces={
+		1937 1995 2192 2221 2222 2267 2377 
+	}
+	weather={
+	}
+}

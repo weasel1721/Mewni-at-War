@@ -1,0 +1,9 @@
+strategic_region={
+	id=10
+	name="Waterfolk Sea"
+	provinces={
+		1910 1943 2098 2100 2236 2281 2291 2296 2336 2413 
+	}
+	weather={
+	}
+}

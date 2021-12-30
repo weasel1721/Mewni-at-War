@@ -1,0 +1,14 @@
+state={
+	id=111
+	name="Eastern Red Woodlands"
+	provinces={
+		44 296 358 400 563 973 1277 1294 1300 1312 
+	}
+	manpower=1235700
+	state_category=town
+	buildings_max_level_factor=1.500
+	history = {
+		owner = MAP
+		add_core_of = MAP
+	}
+}

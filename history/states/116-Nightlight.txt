@@ -1,0 +1,14 @@
+state={
+	id=116
+	name="Nightlight"
+	provinces={
+		85 200 237 361 363 1079 1252
+	}
+	manpower=855120
+	state_category=rural
+	buildings_max_level_factor=1.500
+	history = {
+		owner = PUP
+		add_core_of = PUP
+	}
+}

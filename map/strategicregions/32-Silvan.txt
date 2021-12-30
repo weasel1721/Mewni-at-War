@@ -1,0 +1,9 @@
+strategic_region={
+	id=32
+	name="Silvan"
+	provinces={
+		101 272 284 557 692 840 847 988 1023 1350 1351 1357 1363 1385 
+	}
+	weather={
+	}
+}

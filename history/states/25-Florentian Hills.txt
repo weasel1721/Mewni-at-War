@@ -1,0 +1,14 @@
+state={
+	id=25
+	name="Florentian Hills"
+	provinces={
+		6 409 412 527 690 999 1069 1459 1465 1471 1484 
+	}
+	manpower=604000
+	state_category=town
+	buildings_max_level_factor=1.000
+	history = {
+		owner = FLO
+		add_core_of = FLO
+	}
+}

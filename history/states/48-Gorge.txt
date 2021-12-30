@@ -1,0 +1,14 @@
+state={
+	id=48
+	name="Gorge"
+	provinces={
+		112 596 646 719 747 892 917 949 1494 1502 1505 1509 
+	}
+	manpower=46000
+	state_category=rural
+	buildings_max_level_factor=2.000
+	history = {
+		owner = GOR
+		add_core_of = GOR
+	}
+}

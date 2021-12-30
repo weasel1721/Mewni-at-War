@@ -1,0 +1,14 @@
+state={
+	id=80
+	name="Darius"
+	provinces={
+		93 177 745 1116 1488 1491 1492 1493 
+	}
+	manpower=146800
+	state_category=rural
+	buildings_max_level_factor=1.500
+	history = {
+		owner = GOR
+		add_core_of = GOR
+	}
+}

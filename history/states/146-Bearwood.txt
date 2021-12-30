@@ -1,0 +1,14 @@
+state={
+	id=146
+	name="Bearwood"
+	provinces={
+		13 81 172 207 217 233 406 410 537 559 589 868 969 1062 1093 1173 1185 1191 1194 1200 1202 1206 1219 
+	}
+	manpower=750250
+	state_category=rural
+	buildings_max_level_factor=2.000
+	history = {
+		owner = TED
+		add_core_of = TED
+	}
+}
