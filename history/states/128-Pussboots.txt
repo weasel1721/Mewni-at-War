@@ -2,7 +2,7 @@ state={
 	id=128
 	name="Pussboots"
 	provinces={
-		175 397 510 647 773 801 1085 1248 1257 801
+		175 397 510 647 773 801 1085 1248 1257
 	}
 	manpower=945600
 	state_category=town

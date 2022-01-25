@@ -1,16 +1,137 @@
-characters={
-	UKM_star_butterfly={
-		name="Star Butterfly"
-		portraits={
-			civilian={
-				large="gfx/leaders/UKM/StarButterflyHoS.dds"
+characters = {
+	UKM_star_butterfly = {
+		name = UKM_star_butterfly
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UKM/StarButterflyPortrait.dds"
+			}
+			army = {
+				large = "gfx/leaders/UKM/StarButterflyPortrait.dds"
 			}
 		}
-		country_leader={
-			desc="Testing"
-			ideology=constitutional_monarchism
-			expire="870.1.1.1"
-			id=-1
+		country_leader = {
+			desc = "Testing"
+			ideology = constitutional_monarchism
+			expire = "870.1.1.1"
+			id = -1
+		}
+		field_marshal = {
+			traits = { 
+				trait_reckless
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	UKM_ruby_stone = {
+		name = UKM_ruby_stone
+		portraits = {
+			army = {
+				small = "gfx/leaders/UKM/RubyStonePortraitAdvisor.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			cost = 100
+			allowed = {
+				original_tag = UKM
+			}
+			traits = {
+				captain_of_industry
+			}
+			ai_will_do = {
+				factor = 1.00
+			}
+		}
+	}
+	UKM_percy_mcknight = {
+		name = UKM_percy_mcknight
+		portraits = {
+			army = {
+				large = "gfx/leaders/UKM/PercyMcKnightPortrait.dds"
+				small = "gfx/leaders/UKM/PercyMcKnightPortraitAdvisor.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			cost = 100
+			allowed = {
+				original_tag = UKM
+			}
+			traits = {
+				armaments_organizer
+			}
+			ai_will_do = {
+				factor = 1.00
+			}
+		}
+		advisor = {
+			slot = army_chief
+			cost = 100
+			allowed = {
+				original_tag = UKM
+			}
+			traits = {
+				army_chief_organizational_2
+			}
+			ai_will_do = {
+				factor = 1.00
+			}
+		}
+		field_marshal = {
+			traits = { 
+				trait_cautious old_guard career_officer politically_connected
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	UKM_falcon_redbird = {
+		name = UKM_falcon_redbird
+		portraits = {
+			army = {
+				small = "gfx/leaders/UKM/FalconRedbirdPortraitAdvisor.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			cost = 100
+			allowed = {
+				original_tag = UKM
+			}
+			traits = {
+				prince_of_terror
+			}
+			ai_will_do = {
+				factor = 1.00
+			}
+		}
+	}
+	UKM_jasmine_flowers = {
+		name = UKM_jasmine_flowers
+		portraits = {
+			army = {
+				small = "gfx/leaders/UKM/JasmineFlowersPortraitAdvisor.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			cost = 100
+			allowed = {
+				original_tag = UKM
+			}
+			traits = {
+				backroom_backstabber
+			}
+			ai_will_do = {
+				factor = 1.00
+			}
 		}
 	}
 }
