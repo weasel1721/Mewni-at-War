@@ -4,11 +4,11 @@ country_event = {
 	title = butterfly.1.t
 	desc = butterfly.1.d
 	fire_only_once = yes
+	is_triggered_only = yes
 	trigger = {
 		tag = UKM
 		date > 845.1.5
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.1.a
 	}
@@ -18,11 +18,11 @@ country_event = {
 	title = butterfly.2.t
 	desc = butterfly.2.d
 	fire_only_once = yes
+	is_triggered_only = yes
 	trigger = {
 		tag = UKM
 		date > 845.1.20
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.2.a
 	}
@@ -32,11 +32,11 @@ country_event = {
 	title = butterfly.3.t
 	desc = butterfly.3.d
 	fire_only_once = yes
+	is_triggered_only = yes
 	trigger = {
 		tag = UKM
 		date > 845.2.9
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.3.a
 	}
@@ -50,7 +50,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.4.a
 	}
@@ -60,11 +59,11 @@ country_event = {
 	title = butterfly.5.t
 	desc = butterfly.5.d
 	fire_only_once = yes
+	is_triggered_only = yes
 	trigger = {
 		tag = UKM
 		date > 845.3.9
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.5.a
 	}
@@ -78,7 +77,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.6.a
 	}
@@ -92,7 +90,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.7.a
 	}
@@ -106,7 +103,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.8.a
 	}
@@ -120,7 +116,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.9.a
 	}
@@ -134,7 +129,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.10.a
 		country_event = {
@@ -152,7 +146,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.11.a
 		hidden_effect = {
@@ -182,7 +175,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 2 }
 	option = {
 		name = butterfly.12.a
 		add_political_power = 15
@@ -198,7 +190,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 1 }
 	option = {
 		name = butterfly.13.a
 		add_political_power = -25
@@ -214,7 +205,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.14.a
 	}
@@ -228,7 +218,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.15.a
 	}
@@ -242,7 +231,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.16.a
 	}
@@ -256,7 +244,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.17.a
 	}
@@ -270,7 +257,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.18.a
 	}
@@ -284,7 +270,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.19.a
 	}
@@ -298,7 +283,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.20.a
 	}
@@ -312,7 +296,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.21.a
 	}
@@ -326,7 +309,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.22.a
 	}
@@ -340,7 +322,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.23.a
 	}
@@ -354,7 +335,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.24.a
 	}
@@ -368,7 +348,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.25.a
 	}
@@ -382,7 +361,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.26.a
 	}
@@ -396,7 +374,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.27.a
 	}
@@ -413,7 +390,6 @@ country_event = {
 	trigger = {
 		tag = UKM
 	}
-	mean_time_to_happen = { days = 0 }
 	option = {
 		name = butterfly.28.a
 	}
