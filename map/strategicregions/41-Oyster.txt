@@ -1,9 +1,0 @@
-strategic_region={
-	id=41
-	name="Oyster"
-	provinces={
-		98 168 301 873 1477 
-	}
-	weather={
-	}
-}

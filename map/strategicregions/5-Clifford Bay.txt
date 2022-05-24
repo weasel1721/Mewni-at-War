@@ -1,9 +1,0 @@
-strategic_region={
-	id=5
-	name="Clifford Bay"
-	provinces={
-		1991 2047 2228 
-	}
-	weather={
-	}
-}

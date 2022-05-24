@@ -1,9 +1,0 @@
-strategic_region={
-	id=14
-	name="Polaria's Sea"
-	provinces={
-		1808 1856 1990 2110 2111 2176 2269 2278 2304 2355 2409 
-	}
-	weather={
-	}
-}

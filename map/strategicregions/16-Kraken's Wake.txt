@@ -1,9 +1,0 @@
-strategic_region={
-	id=16
-	name="Kraken's Wake"
-	provinces={
-		1801 1921 1977 2061 2086 2134 2168 2282 2309 2321 2396 
-	}
-	weather={
-	}
-}

@@ -1,9 +1,0 @@
-strategic_region={
-	id=26
-	name="Spitfire"
-	provinces={
-		124 335 375 541 594 780 1005 1043 1068 1125 1448 1449 1455 1456 1467 1468 1483 
-	}
-	weather={
-	}
-}

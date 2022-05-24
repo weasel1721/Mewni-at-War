@@ -1,0 +1,14 @@
+state={
+	id=1
+	name="Butterfly Castle"
+	provinces={
+		2472 
+	}
+	manpower=649000
+	state_category=megalopolis
+	buildings_max_level_factor=1.200
+	history = {
+		owner = UKM
+		add_core_of = UKM
+	}
+}

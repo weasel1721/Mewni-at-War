@@ -1,9 +1,0 @@
-strategic_region={
-	id=11
-	name="Rainbow Islands"
-	provinces={
-		1927 1976 2032 2103 2201 2235 2237 2256 2268 2308 2364 2386 
-	}
-	weather={
-	}
-}

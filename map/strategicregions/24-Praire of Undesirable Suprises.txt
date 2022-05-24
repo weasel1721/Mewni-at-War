@@ -1,9 +1,0 @@
-strategic_region={
-	id=24
-	name="Praire of Undesirable Suprises"
-	provinces={
-		113 126 142 150 243 275 551 691 746 761 779 794 843 921 950 952 1077 1388 1393 1400 1409 1410 1414 1424 1440
-	}
-	weather={
-	}
-}

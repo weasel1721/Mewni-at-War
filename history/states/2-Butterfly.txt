@@ -1,0 +1,15 @@
+state={
+	id=2
+	name="Butterfly"
+	provinces={
+		1840 3509 4501 4538 10382 
+	}
+	manpower=2357824
+	state_category=metropolis
+	buildings_max_level_factor=2.000
+	history = {
+		owner = UKM
+		add_core_of = UKM
+	}
+	local_supplies=0.000
+}

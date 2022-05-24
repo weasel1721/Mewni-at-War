@@ -1,9 +1,0 @@
-strategic_region={
-	id=47
-	name="Piefolk"
-	provinces={
-		869 884 
-	}
-	weather={
-	}
-}

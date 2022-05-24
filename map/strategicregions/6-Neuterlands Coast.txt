@@ -1,9 +1,0 @@
-strategic_region={
-	id=6
-	name="Neuterlands Coast"
-	provinces={
-		1838 1859 1882 2051 2106 2120 2175 
-	}
-	weather={
-	}
-}
