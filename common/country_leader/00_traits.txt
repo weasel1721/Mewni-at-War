@@ -85,7 +85,21 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	inexperienced_monarch = {
+	inexperienced_king = {
+		random = no
+		political_advisor_cost_factor = 0.25
+		trade_laws_cost_factor = 0.25
+		mobilization_laws_cost_factor = 0.25
+		economy_cost_factor = 0.25
+		high_command_cost_factor = 0.25
+		air_chief_cost_factor = 0.25
+		army_chief_cost_factor = 0.25
+		navy_chief_cost_factor = 0.25
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	inexperienced_queen = {
 		random = no
 		political_advisor_cost_factor = 0.25
 		trade_laws_cost_factor = 0.25
@@ -155,7 +169,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	indomitable_perseverance = { # Ground units get 4 more Morale 
+	indomitable_perseverance = { 
 		random = no
 		sprite = 5
 		army_morale_factor = 0.04
@@ -325,22 +339,6 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	conservative_nationalist_lar = {
-		random = no
-		stability_weekly = 0.005
-		production_speed_infrastructure_factor = 0.2
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	the_silver_president = {
-		random = no
-		consumer_goods_factor = -0.05
-		fascism_acceptance = 50
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	hedonist = {
 		random = no
 		stability_factor = -0.05
@@ -493,11 +491,20 @@ leader_traits = {
 		war_support_factor = 0.05
 		justify_war_goal_time = -0.25
 	}
-	the_sacred_king = {
+	sacred_king = {
 		random = no
 		stability_factor = 0.1
 	}
-	disgraced_monarch = {
+	sacred_queen = {
+		random = no
+		stability_factor = 0.1
+	}
+	disgraced_king = {
+		random = no
+		consumer_goods_factor = -0.05
+		stability_factor = -0.1
+	}
+	disgraced_queen = {
 		random = no
 		consumer_goods_factor = -0.05
 		stability_factor = -0.1
@@ -750,7 +757,7 @@ leader_traits = {
 		random = no
 		political_power_factor = -0.15
 	}
-	political_manipulator = { #Bogdan Filov
+	political_manipulator = {
 		random = no
 		political_power_factor = 0.1
 		join_faction_tension = -0.25
@@ -771,13 +778,13 @@ leader_traits = {
 		political_power_gain = 0.05
 		stability_weekly = 0.005
 	}
-	supreme_representative_of_god_on_earth = {
+	supreme_representative_of_god_on_mewni = {
 		random = no
 		stability_factor = 0.1
 		war_support_factor = 0.1
 		drift_defence_factor = 1
 	}
-	supreme_representative_of_the_goddess_on_earth = {
+	supreme_representative_of_the_goddess_on_mewni = {
 		random = no
 		stability_factor = 0.1
 		war_support_factor = 0.1
@@ -944,10 +951,12 @@ leader_traits = {
 		}
 	}
 	prince_of_terror = {
-		sprite = 13
 		resistance_damage_to_garrison = -0.25 
 		foreign_subversive_activites = -0.3
 		non_core_manpower = 0.02
+		foreign_subversive_activites = -0.3
+		enemy_operative_detection_chance_factor = 0.1
+		subversive_activites_upkeep = -0.3
 		ai_will_do = {
 			factor = 1
 		}
@@ -958,25 +967,54 @@ leader_traits = {
 		resistance_damage_to_garrison = -0.25 
 		foreign_subversive_activites = -0.3
 		non_core_manpower = 0.02
+		foreign_subversive_activites = -0.3
+		enemy_operative_detection_chance_factor = 0.1
+		subversive_activites_upkeep = -0.3
 		ai_will_do = {
 			factor = 1
 		}
 	}
 	compassionate_gentleman = {
 		random = yes
-		sprite = 13
+		political_power_factor = -0.1
 		opinion_gain_monthly_factor = 0.15
+		compliance_growth_on_our_occupied_states = -0.3
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	compassionate_lord = {
+		random = yes
+		political_power_factor = -0.1
+		opinion_gain_monthly_factor = 0.15
+		compliance_growth_on_our_occupied_states = -0.3
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	compassionate_lady = {
+		random = yes
+		political_power_factor = -0.1
+		opinion_gain_monthly_factor = 0.15
+		compliance_growth_on_our_occupied_states = -0.3
 		ai_will_do = {
 			factor = 1
 		}
 	}
 	backroom_backstabber = {
-		sprite = 13
-		political_power_factor = 0.05
+		political_power_factor = 0.2
 		drift_defence_factor = 0.15
 		ai_will_do = {
 			factor = 1
 		}
+	}
+	scandalous_socialite = {
+		random = no
+		political_power_factor = 0.25
+		stability_factor = -0.05
+		war_support_factor = -0.1
+		trade_opinion_factor = 0.15
+		trade_laws_cost_factor = -0.25
 	}
 	smooth_talking_charmer = {
 		random = yes
@@ -1026,9 +1064,10 @@ leader_traits = {
 		}
 	}
 	financial_expert = {
-		sprite = 10
 		random = yes
+		stability_factor = 0.05
 		consumer_goods_factor = -0.05
+		economy_cost_factor = -0.1
 		ai_will_do = {
 			factor = 2
 		}
@@ -1051,7 +1090,6 @@ leader_traits = {
 		}
 	}
 	armaments_organizer = {
-		sprite = 10
 		random = yes
 		conversion_cost_civ_to_mil_factor = -0.2
 		ai_will_do = {
@@ -1086,13 +1124,6 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	nuclear_scientist = {
-		random = no
-		sprite = 14
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	adventurous_daredevil = {
 		random = no
 		sprite = 13
@@ -1109,15 +1140,6 @@ leader_traits = {
 		sprite = 13
 		stability_factor = -0.1
 		conscription = 0.02
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	economic_organizer = {
-		random = no
-		sprite = 10
-		stability_factor = 0.05
-		consumer_goods_factor = -0.05
 		ai_will_do = {
 			factor = 1
 		}
@@ -1217,13 +1239,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	priestly_prime_minister = {
-		random = no
-		sprite = 13
-		political_power_factor = 0.15
-		stability_factor = 0.1
-	}
-	militant_minister = {
+	militant = {
 		random = no
 		sprite = 13
 		political_power_factor = 0.1
@@ -1295,6 +1311,21 @@ leader_traits = {
 		neutrality_drift = 0.1
 		political_power_factor = 0.1
 	}
+	territorial_manager = {
+		random = no
+		stability_factor = -0.03
+		global_building_slots_factor = 0.1
+		production_speed_buildings_factor = 0.15
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	bitter_intellectual = {
+		research_speed_factor = 0.15
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	left_sanationist_minister = {
 		random = no
 		sprite = 13
@@ -1354,6 +1385,15 @@ leader_traits = {
 		legitimacy_daily = 0.1
 		army_core_attack_factor = 0.05
 		army_core_defence_factor = 0.05
+	}
+	cross_humility = {
+		random = no
+		monthly_population = 0.01
+		experience_loss_factor = -0.3
+		land_reinforce_rate = 0.25	
+		ai_will_do = {
+			factor = 1
+		}
 	}
 	devoted_marxist = {
 		random = no

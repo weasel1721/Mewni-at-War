@@ -7,10 +7,15 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		tag = UKM
-		date > 845.1.5
 	}
 	option = {
 		name = butterfly.1.a
+		hidden_effect = {
+			country_event = {
+				id = butterfly.2
+				days = 20
+			}
+		}
 	}
 }
 country_event = {
@@ -21,10 +26,15 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		tag = UKM
-		date > 845.1.20
 	}
 	option = {
 		name = butterfly.2.a
+		hidden_effect = {
+			country_event = {
+				id = butterfly.3
+				days = 25
+			}
+		}
 	}
 }
 country_event = {
@@ -35,10 +45,15 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		tag = UKM
-		date > 845.2.9
 	}
 	option = {
 		name = butterfly.3.a
+		hidden_effect = {
+			country_event = {
+				id = butterfly.5
+				days = 25
+			}
+		}
 	}
 }
 country_event = {
@@ -62,7 +77,6 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		tag = UKM
-		date > 845.3.9
 	}
 	option = {
 		name = butterfly.5.a
@@ -207,6 +221,13 @@ country_event = {
 	}
 	option = {
 		name = butterfly.14.a
+		hidden_effect = {
+			load_focus_tree = UKM_bankruptcy_crisis_tree
+			set_country_flag = {
+				flag = bankruptcy_crisis
+				value = 1
+			}
+		}
 	}
 }
 country_event = {
@@ -392,5 +413,50 @@ country_event = {
 	}
 	option = {
 		name = butterfly.28.a
+	}
+	option = {
+		name = butterfly.28.b
+	}
+}
+country_event = {
+	id = butterfly.29
+	title = butterfly.29.t
+	desc = butterfly.29.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = UKM
+	}
+	option = {
+		name = butterfly.29.a
+	}
+	option = {
+		name = butterfly.29.b
+	}
+}
+country_event = {
+	id = butterfly.30
+	title = butterfly.30.t
+	desc = butterfly.30.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = UKM
+	}
+	option = {
+		name = butterfly.30.a
+	}
+}
+country_event = {
+	id = butterfly.31
+	title = butterfly.31.t
+	desc = butterfly.31.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = UKM
+	}
+	option = {
+		name = butterfly.31.a
 	}
 }

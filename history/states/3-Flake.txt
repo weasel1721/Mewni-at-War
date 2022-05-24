@@ -4,8 +4,8 @@ state={
 	provinces={
 		1176 
 	}
-	manpower=3400
-	state_category=small_island
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 	history = {
 		owner = FRO

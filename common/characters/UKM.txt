@@ -1,6 +1,6 @@
 characters = {
 	UKM_star_butterfly = {
-		name = UKM_star_butterfly
+		name = "Star Butterfly"
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/UKM/StarButterflyPortrait.dds"
@@ -12,6 +12,9 @@ characters = {
 		country_leader = {
 			desc = "Testing"
 			ideology = constitutional_monarchism
+			traits = {
+				inexperienced_queen
+			}
 			expire = "870.1.1.1"
 			id = -1
 		}
@@ -27,7 +30,7 @@ characters = {
 		}
 	}
 	UKM_ruby_stone = {
-		name = UKM_ruby_stone
+		name = "Ruby Stone"
 		portraits = {
 			army = {
 				small = "gfx/leaders/UKM/RubyStonePortraitAdvisor.dds"
@@ -40,7 +43,7 @@ characters = {
 				original_tag = UKM
 			}
 			traits = {
-				captain_of_industry
+				financial_expert
 			}
 			ai_will_do = {
 				factor = 1.00
@@ -48,7 +51,7 @@ characters = {
 		}
 	}
 	UKM_percy_mcknight = {
-		name = UKM_percy_mcknight
+		name = "Percy McKnight"
 		portraits = {
 			army = {
 				large = "gfx/leaders/UKM/PercyMcKnightPortrait.dds"
@@ -93,7 +96,7 @@ characters = {
 		}
 	}
 	UKM_falcon_redbird = {
-		name = UKM_falcon_redbird
+		name = "Falcon Redbird"
 		portraits = {
 			army = {
 				small = "gfx/leaders/UKM/FalconRedbirdPortraitAdvisor.dds"
@@ -114,10 +117,10 @@ characters = {
 		}
 	}
 	UKM_jasmine_flowers = {
-		name = UKM_jasmine_flowers
+		name = "Jasmine Flowers"
 		portraits = {
 			army = {
-				small = "gfx/leaders/UKM/JasmineFlowersPortraitAdvisor.dds"
+				small = "gfx/leaders/UKM/JasmineFlowersPortaitAdvisor.dds"
 			}
 		}
 		advisor = {
@@ -128,6 +131,111 @@ characters = {
 			}
 			traits = {
 				backroom_backstabber
+			}
+			ai_will_do = {
+				factor = 1.00
+			}
+		}
+	}
+	UKM_juniper_forest = {
+		name = "Juniper Forest"
+		portraits = {
+			army = {
+				small = "gfx/leaders/UKM/JuniperForestPortraitAdvisor.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			cost = 100
+			allowed = {
+				original_tag = UKM
+			}
+			traits = {
+				compassionate_lady
+			}
+			ai_will_do = {
+				factor = 1.00
+			}
+		}
+	}
+	UKM_jordan_fields = {
+		name = "Jordan Fields"
+		portraits = {
+			army = {
+				small = "gfx/leaders/UKM/JordanFieldsPortraitAdvisor.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			cost = 100
+			allowed = {
+				original_tag = UKM
+			}
+			traits = {
+				territorial_manager
+			}
+			ai_will_do = {
+				factor = 1.00
+			}
+		}
+	}
+	UKM_benerice_firefly = {
+		name = "Benerice Firefly"
+		portraits = {
+			army = {
+				small = "gfx/leaders/UKM/BenericeFireflyPortraitAdvisor.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			cost = 100
+			allowed = {
+				original_tag = UKM
+			}
+			traits = {
+				bitter_intellectual
+			}
+			ai_will_do = {
+				factor = 1.00
+			}
+		}
+	}
+	UKM_carice_cross = {
+		name = "Carice Cross"
+		portraits = {
+			army = {
+				small = "gfx/leaders/UKM/CariceCrossPortraitAdvisor.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			cost = 100
+			allowed = {
+				original_tag = UKM
+			}
+			traits = {
+				cross_humility
+			}
+			ai_will_do = {
+				factor = 1.00
+			}
+		}
+	}
+	UKM_marine_waterson = {
+		name = "Marine Waterson"
+		portraits = {
+			army = {
+				small = "gfx/leaders/UKM/MarineWatersonPortraitAdvisor.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			cost = 100
+			allowed = {
+				original_tag = UKM
+			}
+			traits = {
+				scandalous_socialite
 			}
 			ai_will_do = {
 				factor = 1.00

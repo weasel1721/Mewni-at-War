@@ -1,0 +1,166 @@
+focus_tree = {
+	id = UKM_bankruptcy_crisis_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = UKM
+		}
+	}
+	default = no
+	reset_on_civil_war = no
+	focus = {
+		id = the_bankruptcy_crisis
+		cost = 2
+		x = 9
+		y = 0
+		completion_reward = {
+			add_political_power = 30
+		}
+	}
+	focus = {
+		id = mobilize_the_mewnistry_of_the_treasury
+		cost = 4
+		x = 9
+		y = 1
+		prerequisite = {
+			focus = the_bankruptcy_crisis
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = attempt_negotiations
+		cost = 5
+		x = 7
+		y = 2
+		prerequisite = {
+			focus = mobilize_the_mewnistry_of_the_treasury
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = expanding_our_options
+		cost = 5
+		x = 9
+		y = 2
+		prerequisite = {
+			focus = mobilize_the_mewnistry_of_the_treasury
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = raise_vassal_taxes
+		cost = 5
+		x = 11
+		y = 2
+		prerequisite = {
+			focus = mobilize_the_mewnistry_of_the_treasury
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = the_stone_mines_proposal
+		cost = 5
+		x = 7
+		y = 3
+		prerequisite = {
+			focus = attempt_negotiations
+		}
+		prerequisite = {
+			focus = expanding_our_options
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = liquidate_assets
+		cost = 5
+		x = 9
+		y = 3
+		prerequisite = {
+			focus = expanding_our_options
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = implement_tariffs
+		cost = 5
+		x = 11
+		y = 3
+		prerequisite = {
+			focus = raise_vassal_taxes
+		}
+		prerequisite = {
+			focus = expanding_our_options
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = employ_civil_forfeiture
+		cost = 4
+		x = 8
+		y = 4
+		prerequisite = {
+			focus = the_stone_mines_proposal
+		}
+		prerequisite = {
+			focus = liquidate_assets
+		}
+		prerequisite = {
+			focus = implement_tariffs
+		}
+		mutually_exclusive = {
+			focus = empty_the_banks
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = empty_the_banks
+		cost = 4
+		x = 10
+		y = 4
+		prerequisite = {
+			focus = the_stone_mines_proposal
+		}
+		prerequisite = {
+			focus = liquidate_assets
+		}
+		prerequisite = {
+			focus = implement_tariffs
+		}
+		mutually_exclusive = {
+			focus = employ_civil_forfeiture
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = hope_the_storm_clears
+		cost = 4
+		x = 9
+		y = 5
+		prerequisite = {
+			focus = employ_civil_forfeiture
+			focus = empty_the_banks
+		}
+		completion_reward = {
+			
+		}
+	}
+}

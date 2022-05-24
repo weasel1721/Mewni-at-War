@@ -72,7 +72,17 @@ recruit_character = UKM_ruby_stone
 recruit_character = UKM_percy_mcknight
 recruit_character = UKM_falcon_redbird
 recruit_character = UKM_jasmine_flowers
+recruit_character = UKM_juniper_forest
+recruit_character = UKM_jordan_fields
+recruit_character = UKM_benerice_firefly
+recruit_character = UKM_carice_cross
+recruit_character = UKM_marine_waterson
 set_politics = {
 	ruling_party = neutrality
 	elections_allowed = no
+}
+load_focus_tree = UKM_starting_tree
+country_event = {
+	id = butterfly.1
+	days = 5
 }

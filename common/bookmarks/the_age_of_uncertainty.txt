@@ -17,6 +17,17 @@ bookmarks = {
 				
 			}
 		}
+		FLO = {
+			history = "FLO_AGE_OF_UNCERTAINTY_DESC"
+			ideology = republicanism
+			minor = no	
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
 		"---" = {
 			history = "Testing"
 		}
