@@ -1,8 +1,4 @@
-# The following scripted effect sets-up the parliament at game start.
 parliament_gui_initial = {
-	# Put simply an array stores a list of things, used here to store the list of parties and list of seats.
-
-	# parliament_seat_array stores the list of seat numbers for each party
 	add_to_array = { parliament_seat_array = 25 } # Partito dei Contadini
 	add_to_array = { parliament_seat_array = 34 } # Partito dei Lavoratori Fiorentino
 	add_to_array = { parliament_seat_array = 43 } # Fronte Populare
@@ -18,8 +14,6 @@ parliament_gui_initial = {
 	add_to_array = { parliament_seat_array = 7 } # Partito Nazionale Corporativo
 	add_to_array = { parliament_seat_array = 11 } # Governo Regio
 	add_to_array = { parliament_seat_array = 9 } # Independents
-	# parliament_member_array stores the list of parties
-	# This basically assigns an id for each party, so Party A = 1, Party B = 2, etc. (must start from 1 and is in order)
 	add_to_array = { parliament_member_array = 1 } # Partito dei Contadini
 	add_to_array = { parliament_member_array = 2 } # Partito dei Lavoratori Fiorentino
 	add_to_array = { parliament_member_array = 3 } # Fronte Populare
@@ -35,71 +29,94 @@ parliament_gui_initial = {
 	add_to_array = { parliament_member_array = 13 } # Partito Nazionale Corporativo
 	add_to_array = { parliament_member_array = 14 } # Governo Regio
 	add_to_array = { parliament_member_array = 15 } # Independents
-
-	# Set up the positions of the dots for the semicircle parliament
+	add_to_array = { senato_del_regno_seat_array = 8 } # Partito dei Contadini
+	add_to_array = { senato_del_regno_seat_array = 11 } # Partito dei Lavoratori Fiorentino
+	add_to_array = { senato_del_regno_seat_array = 14 } # Fronte Populare
+	add_to_array = { senato_del_regno_seat_array = 10 } # Partito Popolare Fiorentino
+	add_to_array = { senato_del_regno_seat_array = 7 } # Partito Agrario
+	add_to_array = { senato_del_regno_seat_array = 18 } # Partito Liberale
+	add_to_array = { senato_del_regno_seat_array = 6 } # Alleanza 790
+	add_to_array = { senato_del_regno_seat_array = 5 } # Giustizia e Libertà
+	add_to_array = { senato_del_regno_seat_array = 17 } # Democrazia Celeste
+	add_to_array = { senato_del_regno_seat_array = 2 } # Partito Fiorentino per l'Unità Comune
+	add_to_array = { senato_del_regno_seat_array = 8 } # Azione Civica
+	add_to_array = { senato_del_regno_seat_array = 9 } # Alleanza Nazionale
+	add_to_array = { senato_del_regno_seat_array = 2 } # Partito Nazionale Corporativo
+	add_to_array = { senato_del_regno_seat_array = 5 } # Governo Regio
+	add_to_array = { senato_del_regno_seat_array = 3 } # Independents
+	add_to_array = { senato_del_regno_member_array = 1 } # Partito dei Contadini
+	add_to_array = { senato_del_regno_member_array = 2 } # Partito dei Lavoratori Fiorentino
+	add_to_array = { senato_del_regno_member_array = 3 } # Fronte Populare
+	add_to_array = { senato_del_regno_member_array = 4 } # Partito Popolare Fiorentino
+	add_to_array = { senato_del_regno_member_array = 5 } # Partito Agrario
+	add_to_array = { senato_del_regno_member_array = 6 } # Partito Liberale
+	add_to_array = { senato_del_regno_member_array = 7 } # Alleanza 790
+	add_to_array = { senato_del_regno_member_array = 8 } # Giustizia e Libertà
+	add_to_array = { senato_del_regno_member_array = 9 } # Democrazia Celeste
+	add_to_array = { senato_del_regno_member_array = 10 } # Partito Fiorentino per l'Unità Comune
+	add_to_array = { senato_del_regno_member_array = 11 } # Azione Civica
+	add_to_array = { senato_del_regno_member_array = 12 } # Alleanza Nazionale
+	add_to_array = { senato_del_regno_member_array = 13 } # Partito Nazionale Corporativo
+	add_to_array = { senato_del_regno_member_array = 14 } # Governo Regio
+	add_to_array = { senato_del_regno_member_array = 15 } # Independents
 	parliament_gui_positions = yes
-
-	# Modify what shows up in the gui
 	reload_parliament_gui = yes
+	reload_senato_del_regno = yes
 }
-
-# The following scripted effect does the main job of generating the gui, by adding the seats for each party in a grid.
-# This should be called every time you need to update the gui, when you add/subtract seats for example.
-# Read the comments if you're interested in how it works
-reload_parliament_gui = {
-	# Clears what's currently on the gui, if there's anything there.
-	clear_array = parliament_main_array
-
-	# The array temp_seat is duplicated from the array parliament_seat_array.
+reload_senato_del_regno = {
+	clear_array = senato_del_regno_main_array
 	for_each_loop = {
-		array = parliament_seat_array
-
-		add_to_array = { temp_seat = parliament_seat_array^i }
+		array = senato_del_regno_seat_array
+		add_to_array = { temp_seat = senato_del_regno_seat_array^i }
 	}
-
-	# It's a suprise tool for later
 	set_temp_variable = { temp_index_1 = 0 }
 	set_temp_variable = { temp_index_2 = 1 }
-
-	# Set temp_size as the highest index in the array, highest index is the highest value x in temp_array^x.
 	set_temp_variable = { temp_size = temp_seat^num }
 	subtract_from_temp_variable = { temp_size = 1 }
-
-	# What this does is loop through the temp_seat array, adding the current value to the next value on the list.
-	# temp_seat^0 is the first value on the list, temp_seat^1 is the next and so forth.
-	# the loop ends when temp_index_1 is equal to the size of the array - 1 (basically the max index).
 	while_loop_effect = {
 		limit = {
 			check_variable = { temp_index_1 < temp_size }
 		}
-		# The suprise tool starts out as temp_seat^0 and temp_seat^1 and then is incremented every loop , adding the current value to the next value on the list.
 		add_to_variable = { temp_seat^temp_index_2 = temp_seat^temp_index_1 }
 		add_to_temp_variable = { temp_index_1 = 1 }
 		add_to_temp_variable = { temp_index_2 = 1 }
 	}
-
-	# resize_array fills the parliament_member_array with the id of the parliament member x amount of times where x is the number of seats the member has.
-	# so the array will look like this basically:
-	# 1,1,1,1,1,1,1,...(repeated 90 times),2,2,2,2,2,2,2(repeated 35 times),3,3,3.. etc.
 	for_loop_effect = {
 		start = 0
 		end = temp_seat^num
-
-		resize_array = { array = parliament_main_array value = parliament_member_array^v size = temp_seat^v }
+		resize_array = { array = senato_del_regno_main_array value = senato_del_regno_member_array^v size = temp_seat^v }
 	}
-
-	# Clear the temp_seat array used previously since it's not needed anymore.
 	clear_array = temp_seat
 }
-
-# Bonus code for adding/subtracting seats
+reload_parliament_gui = {
+	clear_array = parliament_main_array
+	for_each_loop = {
+		array = parliament_seat_array
+		add_to_array = { temp_seat = parliament_seat_array^i }
+	}
+	set_temp_variable = { temp_index_1 = 0 }
+	set_temp_variable = { temp_index_2 = 1 }
+	set_temp_variable = { temp_size = temp_seat^num }
+	subtract_from_temp_variable = { temp_size = 1 }
+	while_loop_effect = {
+		limit = {
+			check_variable = { temp_index_1 < temp_size }
+		}
+		add_to_variable = { temp_seat^temp_index_2 = temp_seat^temp_index_1 }
+		add_to_temp_variable = { temp_index_1 = 1 }
+		add_to_temp_variable = { temp_index_2 = 1 }
+	}
+	for_loop_effect = {
+		start = 0
+		end = temp_seat^num
+		resize_array = { array = parliament_main_array value = parliament_member_array^v size = temp_seat^v }
+	}
+	clear_array = temp_seat
+}
 modify_parliament_seat = {
 	subtract_from_temp_variable = { temp_member = 1 }
-
-	# check to see if result overflows
 	set_temp_variable = { temp = parliament_seat_array^temp_member }
 	add_to_temp_variable = { temp = temp_seats }
-
 	if = {
 		limit = {
 			check_variable = { temp > parliament_main_array^num }
@@ -114,37 +131,24 @@ modify_parliament_seat = {
 		multiply_temp_variable = { temp = -1 }
 		subtract_from_temp_variable = { temp_seats = temp }
 	}
-
-	# adds all parties to temp_array
 	for_loop_effect = {
 		start = 0
 		end = parliament_seat_array^num
-
 		add_to_temp_array = { temp_array = v }
 	}
-
-	# remove from list of parties the party to be added/subtracted
 	remove_from_temp_array = { array = temp_array value = temp_member }
-
-	# give party new seat value
 	add_to_variable = { parliament_seat_array^temp_member = temp_seats }
-
-	# if its add
 	if = {
 		limit = {
 			check_variable = { temp_seats > 0 }
 		}
-		# loop until seats to be added is 0
 		while_loop_effect = {
 			limit = {
 				check_variable = { temp_seats > 0 }
 			}
-
-			# loops through remaining parties, subtracting 1 seat each time
 			for_loop_effect = {
 				start = 0
 				end = temp_array^num
-
 				if = {
 					limit = {
 						check_variable = { parliament_seat_array^temp_array^v > 0 } # party must have more than 0 seats to be subtracted
@@ -156,22 +160,17 @@ modify_parliament_seat = {
 			}
 		}
 	}
-	# if its subtract
 	else_if = {
 		limit = {
 			check_variable = { temp_seats < 0 }
 		}
-		# loop until seats to be subtracted is 0
 		while_loop_effect = {
 			limit = {
 				check_variable = { temp_seats < 0 }
 			}
-
-			# loops through remaining parties, adding 1 seat each time
 			for_loop_effect = {
 				start = 0
 				end = temp_array^num
-
 				if = {
 					limit = {
 						check_variable = { parliament_seat_array^temp_array^v < parliament_main_array^num } # party must have less than max seats to be added
@@ -183,13 +182,8 @@ modify_parliament_seat = {
 			}
 		}
 	}
-	# do nothing if 0
-
-	# Modify what shows up in the gui
 	reload_parliament_gui = yes
 }
-
-# Clear all arrays (for debugging)
 clear_parliament_gui_arrays = {
 	clear_array = parliament_main_array
 	clear_array = parliament_member_array

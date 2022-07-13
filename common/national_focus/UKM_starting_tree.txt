@@ -8,7 +8,6 @@ focus_tree = {
 		}
 	}
 	default = no
-	reset_on_civil_war = no
 	focus = {
 		id = welcoming_the_new_year
 		icon = GFX_UKM_welcoming_the_new_year

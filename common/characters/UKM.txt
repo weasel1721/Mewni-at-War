@@ -19,8 +19,9 @@ characters = {
 			id = -1
 		}
 		field_marshal = {
-			traits = { 
+			traits = {
 				trait_reckless
+				expert_improviser
 			}
 			skill = 1
 			attack_skill = 1
@@ -85,14 +86,18 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { 
-				trait_cautious old_guard career_officer politically_connected
+			traits = {
+				house_mcknight
+				old_guard
+				trait_cautious
+				career_officer
+				logistics_wizard
 			}
-			skill = 1
+			skill = 2
 			attack_skill = 1
 			defense_skill = 2
 			planning_skill = 1
-			logistics_skill = 3
+			logistics_skill = 2
 		}
 	}
 	UKM_falcon_redbird = {
@@ -240,6 +245,362 @@ characters = {
 			ai_will_do = {
 				factor = 1.00
 			}
+		}
+	}
+	UKM_phillip_carter = {
+		name = "Phillip Carter"
+		portraits = {
+			army = {
+				large = "gfx/leaders/UKM/PhillipCarterPortrait.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				career_officer
+				infantry_officer
+				unyielding_defender
+				ranger
+			}
+			skill = 5
+			attack_skill = 2
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	UKM_annabelle_moon = {
+		name = "Annabelle Moon"
+		portraits = {
+			army = {
+				large = "gfx/leaders/UKM/AnnabelleMoonPortrait.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				logistics_wizard
+				organisational_leader
+				brilliant_strategist
+				infantry_officer
+				war_hero
+			}
+			skill = 5
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+	UKM_william_foster = {
+		name = "William Foster"
+		portraits = {
+			army = {
+				large = "gfx/leaders/UKM/WilliamFosterPortrait.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				old_guard
+				harsh_leader
+				fortress_buster
+				war_hero
+				career_officer
+			}
+            skill = 4
+            attack_skill = 5
+            defense_skill = 2
+            planning_skill = 4
+            logistics_skill = 3
+		}
+	}
+	UKM_lucille_henderson = {
+		name = "Lucille Henderson"
+		portraits = {
+			army = {
+				large = "gfx/leaders/UKM/LucilleHendersonPortrait.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				organizer
+				media_personality
+				skilled_staffer
+				cavalry_expert
+			}
+            skill = 4
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 5
+		}
+	}
+	UKM_assyria_fields = {
+		name = "Assyria Fields"
+		portraits = {
+			army = {
+				large = "gfx/leaders/UKM/AssyriaFieldsPortrait.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				house_fields
+				politically_connected
+				house_fields
+				infantry_leader
+				infantry_expert
+				inflexible_strategist
+			}
+            skill = 4
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 5
+            logistics_skill = 2
+		}
+	}
+	UKM_james_elliot = {
+		name = "James Elliot"
+		portraits = {
+			army = {
+				large = "gfx/leaders/UKM/JamesElliotPortrait.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				inflexible_strategist
+				trait_cautious
+				cavalry_leader
+			}
+            skill = 4
+            attack_skill = 3
+            defense_skill = 4
+            planning_skill = 1
+            logistics_skill = 2
+		}
+	}
+	UKM_nicolas_powell = {
+		name = "Nicolas Powell"
+		portraits = {
+			army = {
+				large = "gfx/leaders/UKM/NicolasPowellPortrait.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_reckless
+				war_hero
+				guerilla_fighter
+				skirmisher
+				commando
+				scavenger
+			}
+            skill = 3
+            attack_skill = 4
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 4
+		}
+	}
+	UKM_headwig_morgan = {
+		name = "Headwig Morgan"
+		portraits = {
+			army = {
+				large = "gfx/leaders/UKM/HeadwigMorganPortrait.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_engineer
+				engineer_officer
+				skirmisher
+			}
+            skill = 3
+            attack_skill = 2
+            defense_skill = 4
+            planning_skill = 3
+            logistics_skill = 2
+		}
+	}
+	UKM_dindrane_mcknight = {
+		name = "Dindrane McKnight"
+		portraits = {
+			army = {
+				large = "gfx/leaders/UKM/DindraneMcKnightPortrait.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				house_mcknight
+				politically_connected
+				media_personality
+				organizer
+				fortress_buster
+				urban_assault_specialist
+			}
+            skill = 3
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 4
+            logistics_skill = 3
+		}
+	}
+	UKM_irene_bailey = {
+		name = "Irene Bailey"
+		portraits = {
+			army = {
+				large = "gfx/leaders/UKM/IreneBaileyPortrait.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				organizer
+				skilled_staffer
+				brilliant_strategist
+			}
+            skill = 3
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 5
+		}
+	}
+	UKM_quinten_rollins = {
+		name = "Quinten Rollins"
+		portraits = {
+			army = {
+				large = "gfx/leaders/UKM/QuintenRollinsPortrait.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				old_guard
+				inflexible_strategist
+				ambusher
+			}
+            skill = 3
+            attack_skill = 3
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 2
+		}
+	}
+	UKM_isabella_owens = {
+		name = "Isabella Owens"
+		portraits = {
+			army = {
+				large = "gfx/leaders/UKM/IsabellaOwensPortrait.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trickster
+				skilled_staffer
+				commando
+				ambusher
+			}
+            skill = 2
+            attack_skill = 2
+            defense_skill = 4
+            planning_skill = 5
+            logistics_skill = 3
+		}
+	}
+	UKM_howard_custer = {
+		name = "Howard Custer"
+		portraits = {
+			army = {
+				large = "gfx/leaders/UKM/HowardCusterPortrait.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_cautious
+				inflexible_strategist
+				old_guard
+			}
+            skill = 2
+            attack_skill = 3
+            defense_skill = 4
+            planning_skill = 1
+            logistics_skill = 2
+		}
+	}
+	UKM_mara_noelle = {
+		name = "Mara Noelle"
+		portraits = {
+			army = {
+				large = "gfx/leaders/UKM/MaraNoellePortrait.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				organizer	
+				naval_invader
+				naval_liason
+			}
+            skill = 2
+            attack_skill = 1
+            defense_skill = 2
+            planning_skill = 4
+            logistics_skill = 2
+		}
+	}
+	UKM_amber_collins = {
+		name = "Amber Collins"
+		portraits = {
+			army = {
+				large = "gfx/leaders/UKM/AmberCollinsPortrait.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				harsh_leader
+				war_hero
+				commando
+				ambusher
+			}
+            skill = 2
+            attack_skill = 4
+            defense_skill = 1
+            planning_skill = 3
+            logistics_skill = 2
+		}
+	}
+	UKM_chloe_rivera = {
+		name = "Chloe Rivera"
+		portraits = {
+			army = {
+				large = "gfx/leaders/UKM/ChloeRiveraPortrait.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				media_personality
+				trait_engineer
+				fortress_buster
+			}
+            skill = 1
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 1
+            logistics_skill = 2
+		}
+	}
+	UKM_floyd_paling = {
+		name = "Floyd Paling"
+		portraits = {
+			army = {
+				large = "gfx/leaders/UKM/FloydPalingPortrait.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_cautious
+				career_officer
+			}
+            skill = 1
+            attack_skill = 2
+            defense_skill = 1
+            planning_skill = 3
+            logistics_skill = 1
 		}
 	}
 }

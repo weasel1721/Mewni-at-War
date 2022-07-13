@@ -8,7 +8,7 @@ bookmarks = {
 		default_country = UKM
 		UKM = {
 			history = "UKM_AGE_OF_UNCERTAINTY_DESC"
-			ideology = monarchism
+			ideology = neutrality
 			minor = no	
 			ideas = {
 				
@@ -19,7 +19,7 @@ bookmarks = {
 		}
 		FLO = {
 			history = "FLO_AGE_OF_UNCERTAINTY_DESC"
-			ideology = republicanism
+			ideology = democratic
 			minor = no	
 			ideas = {
 				

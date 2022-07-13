@@ -8,7 +8,6 @@ focus_tree = {
 		}
 	}
 	default = no
-	reset_on_civil_war = no
 	focus = {
 		id = the_bankruptcy_crisis
 		cost = 2
