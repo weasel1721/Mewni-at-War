@@ -1,0 +1,15 @@
+state = {
+	id = 10
+	name = "Absolution"
+	provinces = {
+		783 923 1064 1320 2272 3765 4042 4356 4708 10481 10484 10517 10554 
+	}
+	manpower = 349210
+	state_category = rural
+	buildings_max_level_factor = 1.500
+	history = {
+		owner = UKM
+		add_core_of = UKM
+	}
+	local_supplies = 0.000
+}

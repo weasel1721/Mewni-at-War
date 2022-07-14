@@ -1,0 +1,15 @@
+state = {
+	id = 4
+	name = "Spiderbite"
+	provinces = {
+		126 326 528 538 735 944 1168 1190 1546 1658 1901 2111 2291 3470 3523 3891 3959 5485 5492 10031 10044 10045 10047 10067 10072 10077 10083 10096 10101 10102 10114 10115 10128 10131 10139 10155 10164 10170 10177 10180 10189 10204 10214 12117 12118 
+	}
+	manpower = 173892
+	state_category = rural
+	buildings_max_level_factor = 2.000
+	history = {
+		owner = UKM
+		add_core_of = UKM
+	}
+	local_supplies = 0.000
+}

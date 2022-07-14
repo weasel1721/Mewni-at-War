@@ -1,0 +1,15 @@
+state = {
+	id = 12
+	name = "Avaria"
+	provinces = {
+		1394 2263 2681 2722 3406 3619 3872 4161 4781 10073 10108 10122 10123 10140 10159 10168 10184 10206 10224 10231 10243 10254 10269 
+	}
+	manpower = 478915
+	state_category = rural
+	buildings_max_level_factor = 3.000
+	history = {
+		owner = UKM
+		add_core_of = UKM
+	}
+	local_supplies = 0.000
+}

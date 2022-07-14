@@ -1,0 +1,15 @@
+state = {
+	id = 5
+	name = "Forest of Unprobable Itchiness"
+	provinces = {
+		962 1421 2244 2664 2758 2923 3650 4359 5028 10452 10459 10460 10490 10493 10511 10516 10539 10557 
+	}
+	manpower = 376
+	state_category = rural
+	buildings_max_level_factor = 0.000
+	history = {
+		owner = UKM
+		add_core_of = UKM
+	}
+	local_supplies = 0.000
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 3
+	name = "Johansen"
+	provinces = {
+		454 1023 2956 3882 4906 10370 10371 10383 10384 10386 10396 10400 10407 10414 10419 10430 10435 
+	}
+	manpower = 789245
+	state_category = town
+	buildings_max_level_factor = 1.500
+	history = {
+		owner = UKM
+		add_core_of = UKM
+	}
+	local_supplies = 0.000
+}

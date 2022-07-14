@@ -1,0 +1,15 @@
+state = {
+	id = 11
+	name = "Ponyhead"
+	provinces = {
+		466 1518 1941 2517 3333 4051 5109 5249 10081 10089 10119 10120 10144 10150 10158 10183 10188 
+	}
+	manpower = 663578
+	state_category = large_city
+	buildings_max_level_factor = 1.000
+	history = {
+		owner = UKM
+		add_core_of = UKM
+	}
+	local_supplies = 0.000
+}

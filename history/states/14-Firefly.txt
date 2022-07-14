@@ -1,0 +1,15 @@
+state = {
+	id = 14
+	name = "Firefly"
+	provinces = {
+		26 2404 10308 10316 10330 10342 
+	}
+	manpower = 1543821
+	state_category = large_city
+	buildings_max_level_factor = 1.600
+	history = {
+		owner = UKM
+		add_core_of = UKM
+	}
+	local_supplies = 0.000
+}

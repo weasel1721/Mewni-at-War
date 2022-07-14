@@ -1,0 +1,15 @@
+state = {
+	id = 9
+	name = "Nephlim"
+	provinces = {
+		650 788 1861 2866 10570 10575 10584 10595 10597 10602 10610 10618 
+	}
+	manpower = 992370
+	state_category = pastoral
+	buildings_max_level_factor = 1.500
+	history = {
+		owner = UKM
+		add_core_of = UKM
+	}
+	local_supplies = 0.000
+}

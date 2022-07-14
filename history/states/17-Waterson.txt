@@ -1,0 +1,15 @@
+state = {
+	id = 17
+	name = "Waterson"
+	provinces = {
+		165 796 1322 2146 3477 3836 4381 4386 5140 5150 5239 10309 10312 10324 10325 10336 10340 10363 10368 10380 
+	}
+	manpower = 2143561
+	state_category = megalopolis
+	buildings_max_level_factor = 1.250
+	history = {
+		owner = UKM
+		add_core_of = UKM
+	}
+	local_supplies = 0.000
+}

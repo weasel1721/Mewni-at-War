@@ -1,0 +1,15 @@
+state = {
+	id = 15
+	name = "Flowers"
+	provinces={
+		219 742 2566 3687 3714 10362 10377 10388 10397 10413 10421 
+	}
+	manpower=189230
+	state_category = metropolis
+	buildings_max_level_factor=1.500
+	history = {
+		owner = UKM
+		add_core_of = UKM
+	}
+	local_supplies=0.000
+}

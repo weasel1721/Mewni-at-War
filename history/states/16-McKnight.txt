@@ -1,0 +1,15 @@
+state = {
+	id = 16
+	name = "McKnight"
+	provinces = {
+		780 1162 1213 1247 5041 10426 10434 10454 10470 10475 10479 
+	}
+	manpower = 1134719
+	state_category = city
+	buildings_max_level_factor = 1.500
+	history = {
+		owner = UKM
+		add_core_of = UKM
+	}
+	local_supplies = 0.000
+}

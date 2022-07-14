@@ -1,0 +1,15 @@
+state = {
+	id = 7
+	name = "Moonbrook"
+	provinces = {
+		2862 4089 4495 4830 10512 10562 
+	}
+	manpower = 234987
+	state_category = large_town
+	buildings_max_level_factor = 1.750
+	history = {
+		owner = UKM
+		add_core_of = UKM
+	}
+	local_supplies = 0.000
+}

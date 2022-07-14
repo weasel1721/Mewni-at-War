@@ -1,0 +1,15 @@
+state = {
+	id = 21
+	name = "Redbird"
+	provinces = {
+		743 756 1165 1227 2924 3245 3300 3480 3704 4191 4306 4344 4476 4560 5042 5430 10228 10246 10253 10268 10288 10292 10313 10337 10341 12153 
+	}
+	manpower = 1194270
+	state_category = city
+	buildings_max_level_factor = 2.500
+	history = {
+		owner = UKM
+		add_core_of = UKM
+	}
+	local_supplies = 0.000
+}

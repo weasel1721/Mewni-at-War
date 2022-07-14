@@ -1,11 +1,11 @@
 state = {
-	id = 2
-	name = "Butterfly"
+	id = 18
+	name = "Fields"
 	provinces = {
-		1840 3509 4501 4538 10382 
+		102 3227 4595 10416 10418 10429 10437 10440 10453 10474 
 	}
-	manpower = 2557824
-	state_category = metropolis
+	manpower = 951627
+	state_category = large_town
 	buildings_max_level_factor = 2.000
 	history = {
 		owner = UKM

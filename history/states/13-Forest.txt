@@ -1,0 +1,15 @@
+state = {
+	id = 13
+	name = "Forest"
+	provinces = {
+		535 912 930 1200 1830 2338 2415 2491 3146 3155 3415 3476 3769 4068 4302 4562 10208 10229 10240 10279 10296 10320 10331 10332 10345 10353 10356 
+	}
+	manpower = 783123
+	state_category = town
+	buildings_max_level_factor = 2.500
+	history = {
+		owner = UKM
+		add_core_of = UKM
+	}
+	local_supplies = 0.000
+}
