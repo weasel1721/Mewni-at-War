@@ -472,12 +472,6 @@ country_event = {
 	option = {
 		name = butterfly.32.a
 	}
-	option = {
-		name = butterfly.32.b
-	}
-	option = {
-		name = butterfly.32.c
-	}
 }
 country_event = {
 	id = butterfly.33
@@ -490,6 +484,12 @@ country_event = {
 	}
 	option = {
 		name = butterfly.33.a
+	}
+	option = {
+		name = butterfly.33.b
+	}
+	option = {
+		name = butterfly.33.c
 	}
 }
 country_event = {
@@ -555,5 +555,18 @@ country_event = {
 	}
 	option = {
 		name = butterfly.38.a
+	}
+}
+country_event = {
+	id = butterfly.39
+	title = butterfly.39.t
+	desc = butterfly.39.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = UKM
+	}
+	option = {
+		name = butterfly.39.a
 	}
 }
