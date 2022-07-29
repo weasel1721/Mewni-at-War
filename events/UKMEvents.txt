@@ -385,6 +385,9 @@ country_event = {
 	option = {
 		name = butterfly.26.a
 	}
+	option = {
+		name = butterfly.26.b
+	}
 }
 country_event = {
 	id = butterfly.27
@@ -430,9 +433,6 @@ country_event = {
 	option = {
 		name = butterfly.29.a
 	}
-	option = {
-		name = butterfly.29.b
-	}
 }
 country_event = {
 	id = butterfly.30
@@ -458,5 +458,102 @@ country_event = {
 	}
 	option = {
 		name = butterfly.31.a
+	}
+}
+country_event = {
+	id = butterfly.32
+	title = butterfly.32.t
+	desc = butterfly.32.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = UKM
+	}
+	option = {
+		name = butterfly.32.a
+	}
+	option = {
+		name = butterfly.32.b
+	}
+	option = {
+		name = butterfly.32.c
+	}
+}
+country_event = {
+	id = butterfly.33
+	title = butterfly.33.t
+	desc = butterfly.33.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = UKM
+	}
+	option = {
+		name = butterfly.33.a
+	}
+}
+country_event = {
+	id = butterfly.34
+	title = butterfly.34.t
+	desc = butterfly.34.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = UKM
+	}
+	option = {
+		name = butterfly.34.a
+	}
+}
+country_event = {
+	id = butterfly.35
+	title = butterfly.35.t
+	desc = butterfly.35.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = UKM
+	}
+	option = {
+		name = butterfly.35.a
+	}
+}
+country_event = {
+	id = butterfly.36
+	title = butterfly.36.t
+	desc = butterfly.36.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = UKM
+	}
+	option = {
+		name = butterfly.36.a
+	}
+}
+country_event = {
+	id = butterfly.37
+	title = butterfly.37.t
+	desc = butterfly.37.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = UKM
+	}
+	option = {
+		name = butterfly.37.a
+	}
+}
+country_event = {
+	id = butterfly.38
+	title = butterfly.38.t
+	desc = butterfly.38.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = UKM
+	}
+	option = {
+		name = butterfly.38.a
 	}
 }

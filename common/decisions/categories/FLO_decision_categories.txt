@@ -1,10 +1,10 @@
-parliament_gui_decision_category = {
+parliament_of_the_kingdom_of_florent_decision_category = {
 	icon = usa_congress
 	picture = 
 	allowed = {
 		original_tag = FLO 
 	}
 	priority = 1000
-	scripted_gui = parliament_gui
+	scripted_gui = florent_parliament_gui
 	visible_when_empty = yes
 }
