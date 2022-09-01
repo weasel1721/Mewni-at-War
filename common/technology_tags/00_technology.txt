@@ -1,6 +1,3 @@
-# Do not change tags in here without changing every other reference to them.
-# If adding new technology, make sure they are uniquely named.
-
 technology_categories = {
 	light_air
 	medium_air
@@ -37,6 +34,9 @@ technology_categories = {
 	naval_bomber
 	cas_bomber
 	ship_modules_tech
+	sw_tech
+	fg_tech
+	sl_tech
 	dd_tech
 	cl_tech
 	ca_tech
@@ -93,7 +93,6 @@ technology_categories = {
 	cat_synth_rubber
 	cat_synth_oil
 }
-
 technology_folders = {
 	infantry_folder = {
 		ledger = army
@@ -151,5 +150,4 @@ technology_folders = {
 	electronics_folder = {
 		ledger = civilian
 	}
-	#secret_weapons_folder
 }
