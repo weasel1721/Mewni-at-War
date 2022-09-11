@@ -1,9 +1,0 @@
-strategic_region={
-	id=45
-	name="Wayne"
-	provinces={
-		109 637 650 662 793 1663 1664 1673 1674 1680 
-	}
-	weather={
-	}
-}

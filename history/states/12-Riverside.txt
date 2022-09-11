@@ -1,0 +1,15 @@
+state = {
+	id = 12
+	name = "STATE_12"
+	provinces = {
+		381 2435 2595 10281 10306 10311 10335 10345 10368 10374 10383
+	}
+	manpower = 573891
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history = {
+		owner = UKM
+		add_core_of = UKM
+	}
+}

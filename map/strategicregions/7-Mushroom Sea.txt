@@ -1,9 +1,0 @@
-strategic_region={
-	id=7
-	name="Mushroom Sea"
-	provinces={
-		1821 1939 2055 2115 2238 2270 2322 2331 2380 2388 
-	}
-	weather={
-	}
-}

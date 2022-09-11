@@ -1,0 +1,15 @@
+state = {
+	id = 16
+	name = "STATE_16"
+	provinces = {
+		433 661 1879 2122 10252 10259
+	}
+	manpower = 707625
+	state_category = city
+	buildings_max_level_factor = 2.000
+	local_supplies = 0.000
+	history = {
+		owner = UKM
+		add_core_of = UKM
+	}
+}

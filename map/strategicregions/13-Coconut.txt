@@ -1,9 +1,0 @@
-strategic_region={
-	id=13
-	name="Coconut"
-	provinces={
-		1861 1869 1904 1934 2063 2071 2147 2169 2187 2211 2231 2246 
-	}
-	weather={
-	}
-}

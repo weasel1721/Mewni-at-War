@@ -1,9 +1,0 @@
-strategic_region={
-	id=12
-	name="Stone Sea"
-	provinces={
-		1871 1974 2046 2205 2307 2415 
-	}
-	weather={
-	}
-}

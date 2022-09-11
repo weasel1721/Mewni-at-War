@@ -1,9 +1,0 @@
-strategic_region={
-	id=52
-	name="Musty Mountains Range"
-	provinces={
-		27 65 125 141 163 215 220 253 254 293 554 625 630 1102 1132 1589 1602 1609 1614 1621 1630 1636 1642 
-	}
-	weather={
-	}
-}

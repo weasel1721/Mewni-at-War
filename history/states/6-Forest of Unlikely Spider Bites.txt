@@ -1,0 +1,15 @@
+state = {
+	id = 6
+	name = "STATE_6"
+	provinces = {
+		225 246 295 435 1085 1274 1280 1669 1942 2061 2141 2326 2358 2611 2887 3016 3829 3881 4414 4581 5013 5117 5223 9833 9839 9850 9851 9864 9866 9882 9903 9907 9918 9927 9928 9929 9930 9951 9952 9953 9974 9975 9980 10013 11919 11920
+	}
+	manpower = 378294
+	state_category = rural
+	buildings_max_level_factor = 1.500
+	local_supplies = 5.000
+	history = {
+		owner = UKM
+		add_core_of = UKM
+	}
+}

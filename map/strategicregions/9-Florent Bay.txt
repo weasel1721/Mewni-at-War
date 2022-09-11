@@ -1,9 +1,0 @@
-strategic_region={
-	id=9
-	name="Florent Bay"
-	provinces={
-		2112 2341 
-	}
-	weather={
-	}
-}

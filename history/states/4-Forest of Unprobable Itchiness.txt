@@ -1,0 +1,15 @@
+state = {
+	id = 4
+	name = "STATE_4"
+	provinces = {
+		66 155 1184 2164 2238 3354 4439 10261 10266 10270 10273 10276 10286 10291 10298 10300 10317 10373 10382
+	}
+	manpower = 3725
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history = {
+		owner = UKM
+		add_core_of = UKM
+	}
+}

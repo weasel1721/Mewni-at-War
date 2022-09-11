@@ -1,9 +1,0 @@
-strategic_region={
-	id=4
-	name="Septarian Sea"
-	provinces={
-		1863 1916 2002 2030 2105 2319 2369 2395 
-	}
-	weather={
-	}
-}
