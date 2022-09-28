@@ -1,0 +1,11 @@
+state = {
+	id = 70
+	name = "STATE_70"
+	provinces = {
+		2048 2677 3755 11066
+	}
+	manpower = 35981
+	state_category = pastoral
+	buildings_max_level_factor = 1.500
+	local_supplies = 0.000
+}

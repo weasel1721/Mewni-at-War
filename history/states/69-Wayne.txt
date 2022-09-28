@@ -1,0 +1,15 @@
+state = {
+	id = 69
+	name = "STATE_69"
+	provinces = {
+		1115 1944 3088 3672 4655 4690 10794 10813
+	}
+	manpower = 253180
+	state_category = rural
+	buildings_max_level_factor = 2.250
+	local_supplies = 15.000
+	history = {
+		owner = WAY
+		add_core_of = WAY
+	}
+}

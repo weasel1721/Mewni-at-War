@@ -1,0 +1,15 @@
+state = {
+	id = 25
+	name = "STATE_25"
+	provinces = {
+		2171 9791 9818 9820 9847 9853
+	}
+	manpower = 78912
+	state_category = pastoral
+	buildings_max_level_factor = 2.000
+	local_supplies = 5.000
+	history = {
+		owner = JAG
+		add_core_of = JAG
+	}
+}

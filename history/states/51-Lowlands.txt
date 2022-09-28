@@ -1,0 +1,15 @@
+state = {
+	id = 51
+	name = "STATE_51"
+	provinces = {
+		545 2592 10431 10463 10497
+	}
+	manpower = 230971
+	state_category = town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history = {
+		owner = MUS
+		add_core_of = MUS
+	}
+}

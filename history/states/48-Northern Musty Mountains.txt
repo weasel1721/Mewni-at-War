@@ -1,0 +1,15 @@
+state = {
+	id = 48
+	name = "STATE_48"
+	provinces = {
+		840 3363 4354 4759 10359 10395
+	}
+	manpower = 23710
+	state_category = rural
+	buildings_max_level_factor = 2.500
+	local_supplies = 0.000
+	history = {
+		owner = MUS
+		add_core_of = MUS
+	}
+}

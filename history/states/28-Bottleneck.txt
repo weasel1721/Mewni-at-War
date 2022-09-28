@@ -1,0 +1,15 @@
+state = {
+	id = 28
+	name = "STATE_28"
+	provinces = {
+		9708 9732
+	}
+	manpower = 4178
+	state_category = wasteland
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history = {
+		owner = JAG
+		add_core_of = JAG
+	}
+}

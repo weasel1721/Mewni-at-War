@@ -1,0 +1,15 @@
+state = {
+	id = 42
+	name = "STATE_42"
+	provinces = {
+		1994 10389 10402 10405
+	}
+	manpower = 12810
+	state_category = wasteland
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history = {
+		owner = MVL
+		add_core_of = MVL
+	}
+}

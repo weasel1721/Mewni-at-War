@@ -1,0 +1,15 @@
+state = {
+	id = 35
+	name = "STATE_35"
+	provinces = {
+		698 1484 3813 4503 5259 9842 9848 9849 9852 9867 9874 9875 9888 9932
+	}
+	manpower = 240281
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history = {
+		owner = SEP
+		add_core_of = SEP
+	}
+}

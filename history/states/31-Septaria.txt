@@ -1,0 +1,15 @@
+state = {
+	id = 31
+	name = "STATE_31"
+	provinces = {
+		226 321 1861 2190 2749 3471 4454 10053 10058 10074 10095 10111 10132 10155 11952 11954
+	}
+	manpower = 872915
+	state_category = large_town
+	buildings_max_level_factor = 2.000
+	local_supplies = 15.000
+	history = {
+		owner = SEP
+		add_core_of = SEP
+	}
+}

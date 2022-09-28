@@ -1,0 +1,15 @@
+state = {
+	id = 36
+	name = "STATE_36"
+	provinces = {
+		628 1200 1307 1856 2115 2402 3284 3745 4250 4858 4976 10008 10014 10031 10042 10045 10047 10057 10062 10064 10065 10066 10073 10084 10088 10109 10116
+	}
+	manpower = 621802
+	state_category = rural
+	buildings_max_level_factor = 1.750
+	local_supplies = 5.000
+	history = {
+		owner = SEP
+		add_core_of = SEP
+	}
+}

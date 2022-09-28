@@ -1,0 +1,15 @@
+state = {
+	id = 41
+	name = "STATE_41"
+	provinces = {
+		571 1140 1265 1476 2477 2557 3045 3133 3748 3888 5050 5168 10149 10163 10172 10186 10194 10210 10221 10231
+	}
+	manpower = 290915
+	state_category = pastoral
+	buildings_max_level_factor = 5.000
+	local_supplies = 5.000
+	history = {
+		owner = MVL
+		add_core_of = MVL
+	}
+}

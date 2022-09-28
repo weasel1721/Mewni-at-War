@@ -1,0 +1,15 @@
+state = {
+	id = 68
+	name = "STATE_68"
+	provinces = {
+		928 3376 4599 4990 5085 5111 11074 11092 11093 11094 11100 11114 11123 11130 11152
+	}
+	manpower = 2009171
+	state_category = metropolis
+	buildings_max_level_factor = 1.250
+	local_supplies = 15.000
+	history = {
+		owner = CLF
+		add_core_of = CLF
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 38
+	name = "STATE_38"
+	provinces = {
+		509 1439 1969 3762 5084 10253 10294
+	}
+	manpower = 1001328
+	state_category = large_town
+	buildings_max_level_factor = 2.000
+	local_supplies = 15.000
+	history = {
+		owner = MVL
+		add_core_of = MVL
+	}
+}

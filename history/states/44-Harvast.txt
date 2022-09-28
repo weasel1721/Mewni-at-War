@@ -1,0 +1,15 @@
+state = {
+	id = 44
+	name = "STATE_44"
+	provinces = {
+		515 1888 3335 10181 10211 10243 10245 11957 11959 11961
+	}
+	manpower = 910985
+	state_category = pastoral
+	buildings_max_level_factor = 3.000
+	local_supplies = 5.000
+	history = {
+		owner = MVL
+		add_core_of = MVL
+	}
+}

@@ -1256,13 +1256,6 @@ technologies = {
 			acclimatization_hot_climate_gain_factor = 0.05
 			acclimatization_cold_climate_gain_factor = 0.05
 		}
-		dependencies = {
-			OR = {
-				marines = 1
-				paratrooper = 1
-				mountaineer = 1
-			}
-		}
 		path = {
 			leads_to_tech = advanced_special_forces
 			research_cost_coeff = 1

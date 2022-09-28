@@ -1,0 +1,15 @@
+state = {
+	id = 58
+	name = "STATE_58"
+	provinces = {
+		819 1970 4718 10465 10479 10485 10546
+	}
+	manpower = 315670
+	state_category = rural
+	buildings_max_level_factor = 1.500
+	local_supplies = 0.000
+	history = {
+		owner = FAH
+		add_core_of = FAH
+	}
+}

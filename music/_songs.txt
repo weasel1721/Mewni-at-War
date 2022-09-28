@@ -4,7 +4,7 @@ music = {
 	chance = {
 		modifier = {
 			factor = 0.5
-		}		
+		}
 	}
 }
 music = {
@@ -12,10 +12,9 @@ music = {
 	chance = {
 		modifier = {
 			factor = 1
-
 			has_war = no
-		}		
-	}	
+		}
+	}
 }
 music = {
 	song = "general_peace_2"
@@ -23,8 +22,8 @@ music = {
 		modifier = {
 			factor = 1
 			has_war = no
-		}		
-	}	
+		}
+	}
 }
 music = {
 	song = "general_peace_3"
@@ -32,7 +31,7 @@ music = {
 		modifier = {
 			factor = 1
 			has_war = no
-		}		
+		}
 	}
 }
 music = {
@@ -42,8 +41,8 @@ music = {
 			factor = 2
 			has_war = no
 			has_government = democratic
-		}		
-	}	
+		}
+	}
 }
 music = {
 	song = "allies_peace_2"
@@ -52,8 +51,8 @@ music = {
 			factor = 2
 			has_war = no
 			has_government = democratic
-		}		
-	}	
+		}
+	}
 }
 music = {
 	song = "axis_peace_1"
@@ -62,8 +61,8 @@ music = {
 			factor = 2
 			has_war = no
 			has_government = fascist
-		}		
-	}	
+		}
+	}
 }
 music = {
 	song = "axis_peace_2"
@@ -72,8 +71,8 @@ music = {
 			factor = 2
 			has_war = no
 			has_government = fascist
-		}		
-	}	
+		}
+	}
 }
 music = {
 	song = "general_war_1"
@@ -81,8 +80,8 @@ music = {
 		modifier = {
 			factor = 1
 			has_war = yes
-		}		
-	}	
+		}
+	}
 }
 music = {
 	song = "general_war_2"
@@ -90,8 +89,8 @@ music = {
 		modifier = {
 			factor = 1
 			has_war = yes
-		}		
-	}	
+		}
+	}
 }
 music = {
 	song = "axis_war_1"
@@ -100,8 +99,8 @@ music = {
 			factor = 2
 			has_war = yes
 			has_government = fascist
-		}		
-	}	
+		}
+	}
 }
 music = {
 	song = "axis_war_2"
@@ -110,8 +109,8 @@ music = {
 			factor = 2
 			has_war = yes
 			has_government = fascist
-		}		
-	}	
+		}
+	}
 }
 music = {
 	song = "axis_war_3"
@@ -120,8 +119,8 @@ music = {
 			factor = 2
 			has_war = yes
 			has_government = fascist
-		}		
-	}	
+		}
+	}
 }
 music = {
 	song = "axis_war_4"
@@ -130,8 +129,8 @@ music = {
 			factor = 2
 			has_war = yes
 			has_government = fascist
-		}		
-	}	
+		}
+	}
 }
 music = {
 	song = "allies_war_1"
@@ -140,8 +139,8 @@ music = {
 			factor = 2
 			has_war = yes
 			has_government = fascist
-		}		
-	}	
+		}
+	}
 }
 music = {
 	song = "allies_war_2"
@@ -150,8 +149,8 @@ music = {
 			factor = 2
 			has_war = yes
 			has_government = fascist
-		}		
-	}	
+		}
+	}
 }
 music = {
 	song = "comintern_peace_1"
@@ -160,8 +159,8 @@ music = {
 			factor = 2
 			has_war = no
 			has_government = communist
-		}		
-	}	
+		}
+	}
 }
 music = {
 	song = "comintern_peace_2"
@@ -170,8 +169,8 @@ music = {
 			factor = 2
 			has_war = no
 			has_government = communist
-		}		
-	}	
+		}
+	}
 }
 music = {
 	song = "comintern_peace_3"
@@ -180,8 +179,8 @@ music = {
 			factor = 2
 			has_war = no
 			has_government = communist
-		}		
-	}	
+		}
+	}
 }
 music = {
 	song = "comintern_war_1"
@@ -190,8 +189,8 @@ music = {
 			factor = 2
 			has_war = yes
 			has_government = communist
-		}		
-	}	
+		}
+	}
 }
 music = {
 	song = "comintern_war_2"
@@ -200,8 +199,8 @@ music = {
 			factor = 2
 			has_war = yes
 			has_government = communist
-		}		
-	}	
+		}
+	}
 }
 music = {
 	song = "comintern_war_3"
@@ -210,6 +209,6 @@ music = {
 			factor = 2
 			has_war = yes
 			has_government = communist
-		}		
-	}	
+		}
+	}
 }

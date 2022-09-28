@@ -1,0 +1,15 @@
+state = {
+	id = 40
+	name = "STATE_40"
+	provinces = {
+		983 1255 1631 1697 1971 2161 2324 2936 2958 4321 4843 10263 10267 10288 10296 10327 10346 10349 10354 10355 10357 10365 10367
+	}
+	manpower = 567109
+	state_category = rural
+	buildings_max_level_factor = 2.000
+	local_supplies = 0.000
+	history = {
+		owner = MVL
+		add_core_of = MVL
+	}
+}
