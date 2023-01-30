@@ -7,5 +7,9 @@ state = {
 	manpower = 35981
 	state_category = pastoral
 	buildings_max_level_factor = 1.500
-	local_supplies = 0.000
+	local_supplies = 5.000
+	history = {
+		owner = GOA
+		add_core_of = GOA
+	}
 }

@@ -1,0 +1,15 @@
+state = {
+	id = 91
+	name = "STATE_91"
+	provinces = {
+		305 2342 2521 3458 3707 4315 4608 4678 4952 5206 5222 9648 9733 9743 9749 9750 9763 9782 9810
+	}
+	manpower = 5910
+	state_category = wasteland
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history = {
+		owner = GOR
+		add_core_of = GOR
+	}
+}

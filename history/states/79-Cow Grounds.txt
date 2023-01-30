@@ -1,0 +1,15 @@
+state = {
+	id = 79
+	name = "STATE_79"
+	provinces = {
+		395 590 1629 1734 4645 5245 5305 10865 10895 10926
+	}
+	manpower = 279100
+	state_category = pastoral
+	buildings_max_level_factor = 4.000
+	local_supplies = 0.000
+	history = {
+		owner = CHE
+		add_core_of = CHE
+	}
+}

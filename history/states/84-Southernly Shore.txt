@@ -1,0 +1,15 @@
+state = {
+	id = 84
+	name = "STATE_84"
+	provinces = {
+		1513 1866 2343 2602 3286 3700 5089 5101 5344 11293 11298 11306 12117
+	}
+	manpower = 207615
+	state_category = rural
+	buildings_max_level_factor = 1.750
+	local_supplies = 0.000
+	history = {
+		owner = HEL
+		add_core_of = HEL
+	}
+}

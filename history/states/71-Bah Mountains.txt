@@ -1,0 +1,15 @@
+state = {
+	id = 71
+	name = "STATE_71"
+	provinces={
+		1757 3424 11039 11052 11070 11083 11091
+	}
+	manpower = 102371
+	state_category = town
+	buildings_max_level_factor = 2.000
+	local_supplies = 15.000
+	history = {
+		owner = GOA
+		add_core_of = GOA
+	}
+}

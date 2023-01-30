@@ -1,0 +1,15 @@
+state = {
+	id = 96
+	name = "STATE_96"
+	provinces = {
+		2427 3191 4169 4956 9462 9499 9515 9543 9549
+	}
+	manpower = 401875
+	state_category = rural
+	buildings_max_level_factor = 2.000
+	local_supplies = 0.000
+	history = {
+		owner = CAM
+		add_core_of = CAM
+	}
+}

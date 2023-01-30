@@ -1,0 +1,15 @@
+state = {
+	id = 93
+	name = "STATE_93"
+	provinces = {
+		1095 2563 5358 9507 9519 9524 9545 9580 9596 9622 9629 9664 11893 11894 11895 11899
+	}
+	manpower = 155293
+	state_category = town
+	buildings_max_level_factor = 4.500
+	local_supplies = 15.000
+	history = {
+		owner = OYS
+		add_core_of = OYS
+	}
+}

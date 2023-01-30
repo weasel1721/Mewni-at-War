@@ -1,0 +1,15 @@
+state = {
+	id = 95
+	name = "STATE_95"
+	provinces = {
+		50 318 437 710 1420 3162 3390 4080 4995 9468 9478 9492 9505 9514 9533 9556 9585 9610 
+	}
+	manpower = 1342956
+	state_category = large_town
+	buildings_max_level_factor = 1.500
+	local_supplies = 10.000
+	history = {
+		owner = CAM
+		add_core_of = CAM
+	}
+}

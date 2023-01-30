@@ -1,0 +1,15 @@
+state = {
+	id = 75
+	name = "STATE_75"
+	provinces = {
+		30 1257 2718 3436 3663 3997 4229 4257 10834 10861 10866 10888 10890 10906 10927 10956
+	}
+	manpower = 404908
+	state_category = rural
+	buildings_max_level_factor = 2.750
+	local_supplies = 0.000
+	history = {
+		owner = CHE
+		add_core_of = CHE
+	}
+}

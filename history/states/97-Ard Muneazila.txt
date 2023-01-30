@@ -1,0 +1,15 @@
+state = {
+	id = 97
+	name = "STATE_97"
+	provinces = {
+		593 1992 2553 3249 5249 5310 9592 9594 9620 9657 9672 9693
+	}
+	manpower = 628913
+	state_category = pastoral
+	buildings_max_level_factor = 2.250
+	local_supplies = 0.000
+	history = {
+		owner = CAM
+		add_core_of = CAM
+	}
+}

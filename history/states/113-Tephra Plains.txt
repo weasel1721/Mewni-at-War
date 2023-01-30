@@ -1,0 +1,15 @@
+state = {
+	id = 113
+	name = "STATE_113"
+	provinces = {
+		500 3318 9517 9523 9529 9544
+	}
+	manpower = 0
+	state_category = wasteland
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history = {
+		owner = SPI
+		add_core_of = SPI
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 83
+	name = "STATE_83"
+	provinces = {
+		323 1145 3629 11188 11199 11208 11236 11253 11270 12111
+	}
+	manpower = 773208
+	state_category = large_town
+	buildings_max_level_factor = 1.250
+	local_supplies = 0.000
+	history = {
+		owner = HEL
+		add_core_of = HEL
+	}
+}

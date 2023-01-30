@@ -1,0 +1,15 @@
+state = {
+	id = 73
+	name = "STATE_73"
+	provinces = {
+		1592 1940 2364 2886 4766 5176 10992
+	}
+	manpower = 340120
+	state_category = large_town
+	buildings_max_level_factor = 2.500
+	local_supplies = 5.000
+	history = {
+		owner = CHE
+		add_core_of = CHE
+	}
+}
